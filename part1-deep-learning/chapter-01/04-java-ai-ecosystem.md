@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 1.3 搭建你的第一个AI开发环境](03-first-ai-environment.md)</span>
+
+<span>[2.1 从感知机到神经网络 →](../chapter-02/01-perceptron-to-neural-network.md)</span>
+
+</div>
+
+---
+
 # 1.4 Java AI生态全景图
 
 > "了解生态，才能选对工具。Java AI生态虽然不如Python丰富，但在企业级应用中有着独特优势。"
@@ -390,3 +400,13 @@ public class AIApplication {
 1. 根据你的项目需求，应该选择哪个框架？
 2. LangChain4j和Spring AI各有什么优劣？
 3. 如果要在生产环境部署AI应用，需要考虑哪些因素？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 1.3 搭建你的第一个AI开发环境](03-first-ai-environment.md)</span>
+
+<span>[2.1 从感知机到神经网络 →](../chapter-02/01-perceptron-to-neural-network.md)</span>
+
+</div>

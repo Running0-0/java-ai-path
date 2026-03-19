@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 4.4 实战：用Java实现文本生成](04-text-generation-practice.md)</span>
+
+<span>[5.1 项目概述与需求分析 →](../chapter-05/01-project-overview.md)</span>
+
+</div>
+
+---
+
 # 4.5 设计思考：时序建模的本质
 
 > "时间是宇宙最神秘的维度，而序列建模是机器对时间的理解方式。"
@@ -287,3 +297,13 @@ for (int i = 0; i < seq.length; i += windowSize) {
 1. RNN和Transformer各有什么优势？在什么场景下选择哪个？
 2. 如何理解"用有限状态编码无限历史"的信息瓶颈？
 3. 如果让你设计一个新的序列模型，会如何平衡记忆容量和计算效率？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 4.4 实战：用Java实现文本生成](04-text-generation-practice.md)</span>
+
+<span>[5.1 项目概述与需求分析 →](../chapter-05/01-project-overview.md)</span>
+
+</div>

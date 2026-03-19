@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 1.4 Java AI生态全景图](../chapter-01/04-java-ai-ecosystem.md)</span>
+
+<span>[2.2 前向传播 →](02-forward-propagation.md)</span>
+
+</div>
+
+---
+
 # 2.1 从感知机到神经网络：一种计算思维的演进
 
 > "每一个伟大的技术突破，都始于一个简单的想法。感知机就是神经网络的那颗种子。"
@@ -443,3 +453,13 @@ OR逻辑学习结果：
 1. 为什么感知机无法解决XOR问题？画出几何解释。
 2. 多层网络为什么能解决XOR问题？尝试手动设计权重。
 3. 激活函数的作用是什么？如果没有激活函数会怎样？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 1.4 Java AI生态全景图](../chapter-01/04-java-ai-ecosystem.md)</span>
+
+<span>[2.2 前向传播 →](02-forward-propagation.md)</span>
+
+</div>

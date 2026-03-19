@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 2.5 设计思考：为什么深度学习需要"深"](../chapter-02/05-why-deep-learning-needs-depth.md)</span>
+
+<span>[3.2 卷积操作的本质 →](02-convolution-operation.md)</span>
+
+</div>
+
+---
+
 # 3.1 图像识别问题：从像素到语义
 
 > "让机器'看见'世界，是人工智能最古老也最迷人的梦想之一。"
@@ -365,3 +375,13 @@ public class ImageLoadingDemo {
 1. 为什么图像识别对人类简单，对计算机却很困难？
 2. 数据增强为什么能提高模型泛化能力？
 3. 如果让你设计一个识别"猫"的系统，你会提取哪些特征？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 2.5 设计思考：为什么深度学习需要"深"](../chapter-02/05-why-deep-learning-needs-depth.md)</span>
+
+<span>[3.2 卷积操作的本质 →](02-convolution-operation.md)</span>
+
+</div>

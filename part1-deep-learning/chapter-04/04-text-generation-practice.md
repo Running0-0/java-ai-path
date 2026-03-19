@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 4.3 LSTM与GRU](03-lstm-and-gru.md)</span>
+
+<span>[4.5 设计思考：时序建模的本质 →](05-design-thinking-sequential-modeling.md)</span>
+
+</div>
+
+---
+
 # 4.4 实战：用Java实现文本生成
 
 > "文本生成是RNN最迷人的应用之一——让机器学会'写作'。"
@@ -530,3 +540,13 @@ for (int batch = 0; batch < numBatches; batch++) {
 1. 尝试不同的温度值，观察生成文本的变化
 2. 比较字符级和词级生成的效果差异
 3. 实现Top-K采样，比较与温度采样的效果
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 4.3 LSTM与GRU](03-lstm-and-gru.md)</span>
+
+<span>[4.5 设计思考：时序建模的本质 →](05-design-thinking-sequential-modeling.md)</span>
+
+</div>

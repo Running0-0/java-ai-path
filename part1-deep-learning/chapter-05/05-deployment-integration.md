@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 5.4 模型评估与优化](04-model-evaluation-optimization.md)</span>
+
+<span>[6.1 什么是语言模型 →](../../part2-llm/chapter-06/01-what-is-language-model.md)</span>
+
+</div>
+
+---
+
 # 5.5 部署与集成：将AI融入Java应用
 
 > "AI的价值在于应用。一个好的部署方案，能让模型真正发挥价值。"
@@ -560,3 +570,13 @@ spec:
 1. 如何实现模型的懒加载？
 2. 如何处理大并发请求？
 3. 如何实现模型的灰度发布？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 5.4 模型评估与优化](04-model-evaluation-optimization.md)</span>
+
+<span>[6.1 什么是语言模型 →](../../part2-llm/chapter-06/01-what-is-language-model.md)</span>
+
+</div>

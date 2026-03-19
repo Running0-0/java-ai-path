@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 2.2 前向传播](02-forward-propagation.md)</span>
+
+<span>[2.4 用Deeplearning4j实现你的第一个神经网络 →](04-first-neural-network-dl4j.md)</span>
+
+</div>
+
+---
+
 # 2.3 反向传播：学习的数学之美
 
 > "反向传播是神经网络最优雅的发明——它让复杂的网络能够高效地学习。"
@@ -534,3 +544,13 @@ public class BackpropagationDemo {
 1. 为什么反向传播比数值梯度计算快？
 2. Adam优化器相比SGD有什么优势？
 3. 为什么分类问题用交叉熵而不用MSE？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 2.2 前向传播](02-forward-propagation.md)</span>
+
+<span>[2.4 用Deeplearning4j实现你的第一个神经网络 →](04-first-neural-network-dl4j.md)</span>
+
+</div>

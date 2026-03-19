@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 5.5 部署与集成](../../part1-deep-learning/chapter-05/05-deployment-integration.md)</span>
+
+<span>[6.2 从N-gram到Word2Vec →](02-ngram-to-word2vec.md)</span>
+
+</div>
+
+---
+
 # 6.1 语言模型是什么：让机器理解语言
 
 > "语言是人类智慧的结晶，语言模型是机器理解人类语言的钥匙。"
@@ -266,3 +276,13 @@ PPL = ∞: 完全随机
 1. 为什么预测下一个词的能力能体现语言理解？
 2. 困惑度低是否一定意味着模型更好？
 3. 大语言模型的涌现能力从何而来？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 5.5 部署与集成](../../part1-deep-learning/chapter-05/05-deployment-integration.md)</span>
+
+<span>[6.2 从N-gram到Word2Vec →](02-ngram-to-word2vec.md)</span>
+
+</div>

@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 5.2 数据准备与预处理](02-data-preparation.md)</span>
+
+<span>[5.4 模型评估与优化 →](04-model-evaluation-optimization.md)</span>
+
+</div>
+
+---
+
 # 5.3 模型设计与训练
 
 > "模型设计是艺术与工程的结合——既要追求性能，又要考虑可行性。"
@@ -390,3 +400,13 @@ public class TrainingMain {
 1. 为什么使用批归一化？它有什么作用？
 2. 早停训练如何防止过拟合？
 3. 尝试增加网络深度，观察训练效果变化。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 5.2 数据准备与预处理](02-data-preparation.md)</span>
+
+<span>[5.4 模型评估与优化 →](04-model-evaluation-optimization.md)</span>
+
+</div>

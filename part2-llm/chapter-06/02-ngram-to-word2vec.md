@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 6.1 语言模型是什么](01-what-is-language-model.md)</span>
+
+<span>[6.3 Transformer架构 →](03-transformer-architecture.md)</span>
+
+</div>
+
+---
+
 # 6.2 从N-gram到Word2Vec：词向量的诞生
 
 > "词向量是自然语言处理的基石——它让计算机第一次'理解'了词的含义。"
@@ -462,3 +472,13 @@ Word2Vec无法区分这两种含义
 1. 为什么词向量能捕捉语义关系？
 2. Word2Vec的两种架构各有什么优缺点？
 3. 如何解决词向量的静态表示问题？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 6.1 语言模型是什么](01-what-is-language-model.md)</span>
+
+<span>[6.3 Transformer架构 →](03-transformer-architecture.md)</span>
+
+</div>

@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 2.1 从感知机到神经网络](01-perceptron-to-neural-network.md)</span>
+
+<span>[2.3 反向传播 →](03-backpropagation.md)</span>
+
+</div>
+
+---
+
 # 2.2 前向传播：数据流动的艺术
 
 > "前向传播就像一条流水线，数据从输入端进入，经过层层加工，最终变成我们想要的输出。"
@@ -535,3 +545,13 @@ a = f(z)           （非线性激活）
 1. 为什么激活函数对神经网络如此重要？
 2. ReLU相比Sigmoid有什么优势？
 3. 批处理为什么能提升计算效率？尝试解释矩阵运算的并行性。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 2.1 从感知机到神经网络](01-perceptron-to-neural-network.md)</span>
+
+<span>[2.3 反向传播 →](03-backpropagation.md)</span>
+
+</div>

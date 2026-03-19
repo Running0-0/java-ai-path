@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 3.6 设计思考：局部感知与参数共享](../chapter-03/06-local-perception-weight-sharing.md)</span>
+
+<span>[4.2 RNN的核心思想 →](02-rnn-memory-and-forgetting.md)</span>
+
+</div>
+
+---
+
 # 4.1 序列数据的挑战：时间维度的引入
 
 > "序列数据无处不在——文本、语音、股票价格、天气变化。理解序列，就是理解时间的智慧。"
@@ -347,3 +357,13 @@ RNN：动态过程 f(x, h) = (y, h')
 1. 为什么RNN能处理变长序列？
 2. RNN的参数共享与CNN有什么异同？
 3. 举出生活中需要"记忆"才能理解的序列例子。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 3.6 设计思考：局部感知与参数共享](../chapter-03/06-local-perception-weight-sharing.md)</span>
+
+<span>[4.2 RNN的核心思想 →](02-rnn-memory-and-forgetting.md)</span>
+
+</div>

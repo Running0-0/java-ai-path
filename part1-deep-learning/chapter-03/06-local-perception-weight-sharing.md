@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 3.5 实战：用Java构建图像分类器](05-build-image-classifier.md)</span>
+
+<span>[4.1 序列数据的挑战 →](../chapter-04/01-sequence-data-challenge.md)</span>
+
+</div>
+
+---
+
 # 3.6 设计思考：局部感知与参数共享
 
 > "CNN的两大设计原则——局部感知和参数共享，是深度学习处理图像的关键智慧。"
@@ -406,3 +416,13 @@ CNN的约束（局部性、共享）正好匹配图像的本质特性。
 1. 为什么局部感知和参数共享能减少过拟合？
 2. 如果图像不满足局部相关性，CNN还适用吗？
 3. 如何设计一个具有旋转不变性的网络？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 3.5 实战：用Java构建图像分类器](05-build-image-classifier.md)</span>
+
+<span>[4.1 序列数据的挑战 →](../chapter-04/01-sequence-data-challenge.md)</span>
+
+</div>

@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 5.3 模型设计与训练](03-model-design-training.md)</span>
+
+<span>[5.5 部署与集成 →](05-deployment-integration.md)</span>
+
+</div>
+
+---
+
 # 5.4 模型评估与优化
 
 > "没有评估就没有改进。科学的评估方法是模型优化的指南针。"
@@ -415,3 +425,13 @@ public class PerformanceBenchmark {
 1. 如何解读混淆矩阵？它能告诉你什么信息？
 2. 模型集成为什么能提高准确率？
 3. 知识蒸馏的原理是什么？为什么有效？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 5.3 模型设计与训练](03-model-design-training.md)</span>
+
+<span>[5.5 部署与集成 →](05-deployment-integration.md)</span>
+
+</div>

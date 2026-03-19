@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 5.1 项目概述与需求分析](01-project-overview.md)</span>
+
+<span>[5.3 模型设计与训练 →](03-model-design-training.md)</span>
+
+</div>
+
+---
+
 # 5.2 数据准备与预处理
 
 > "数据是AI的燃料，预处理是提炼的过程。好的数据准备事半功倍。"
@@ -329,3 +339,13 @@ public class DataPipeline {
 1. 为什么需要将像素值归一化到[0,1]？
 2. 数据增强对MNIST有帮助吗？为什么？
 3. 如何处理类别不平衡问题？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 5.1 项目概述与需求分析](01-project-overview.md)</span>
+
+<span>[5.3 模型设计与训练 →](03-model-design-training.md)</span>
+
+</div>

@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 1.1 为什么Java程序员需要学习AI](01-why-java-ai.md)</span>
+
+<span>[1.3 搭建你的第一个AI开发环境 →](03-first-ai-environment.md)</span>
+
+</div>
+
+---
+
 # 1.2 深度学习是什么：用Java思维理解神经网络
 
 > "神经网络不是魔法，它是一种特殊的计算结构——就像Java中的集合框架，有其特定的设计模式和用法。"
@@ -401,3 +411,13 @@ public class SimpleNeuron {
 1. 为什么说神经网络是一个"可学习的函数"？
 2. 深度学习的"深度"是什么意思？为什么需要深度？
 3. 试着修改上面的代码，让神经元学习OR逻辑或XOR逻辑。哪个能成功？为什么？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 1.1 为什么Java程序员需要学习AI](01-why-java-ai.md)</span>
+
+<span>[1.3 搭建你的第一个AI开发环境 →](03-first-ai-environment.md)</span>
+
+</div>

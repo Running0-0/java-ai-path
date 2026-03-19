@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 1.2 深度学习是什么](02-what-is-deep-learning.md)</span>
+
+<span>[1.4 Java AI生态全景图 →](04-java-ai-ecosystem.md)</span>
+
+</div>
+
+---
+
 # 1.3 搭建你的第一个AI开发环境
 
 > "工欲善其事，必先利其器。一个良好的开发环境是AI学习之路的起点。"
@@ -423,3 +433,13 @@ mvn dependency:resolve
 1. 修改上面的XOR网络，增加隐藏层神经元数量，观察训练效果变化
 2. 尝试不同的激活函数（TANH、LEAKYRELU），比较效果
 3. 调整学习率，观察训练收敛速度的变化
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 1.2 深度学习是什么](02-what-is-deep-learning.md)</span>
+
+<span>[1.4 Java AI生态全景图 →](04-java-ai-ecosystem.md)</span>
+
+</div>

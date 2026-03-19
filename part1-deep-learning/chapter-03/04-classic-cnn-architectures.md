@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 3.3 池化与全连接](03-pooling-and-fully-connected.md)</span>
+
+<span>[3.5 实战：用Java构建图像分类器 →](05-build-image-classifier.md)</span>
+
+</div>
+
+---
+
 # 3.4 经典CNN架构解析：LeNet、AlexNet、ResNet
 
 > "站在巨人的肩膀上，理解经典架构的设计智慧。"
@@ -446,3 +456,13 @@ public class PretrainedModelDemo {
 1. 为什么ResNet能训练更深的网络？
 2. AlexNet的哪些创新至今仍在使用？
 3. 如果你要设计一个图像分类网络，会参考哪个架构？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 3.3 池化与全连接](03-pooling-and-fully-connected.md)</span>
+
+<span>[3.5 实战：用Java构建图像分类器 →](05-build-image-classifier.md)</span>
+
+</div>

@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 3.4 经典CNN架构解析](04-classic-cnn-architectures.md)</span>
+
+<span>[3.6 设计思考：局部感知与参数共享 →](06-local-perception-weight-sharing.md)</span>
+
+</div>
+
+---
+
 # 3.5 实战：用Java构建图像分类器
 
 > "纸上得来终觉浅，绝知此事要躬行。让我们用Java构建一个真正的图像分类系统。"
@@ -569,3 +579,13 @@ model.fit(trainData);
 1. 尝试调整模型结构，增加或减少卷积块，观察效果变化
 2. 实现数据增强，比较有无数据增强的训练效果
 3. 使用预训练模型进行迁移学习
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 3.4 经典CNN架构解析](04-classic-cnn-architectures.md)</span>
+
+<span>[3.6 设计思考：局部感知与参数共享 →](06-local-perception-weight-sharing.md)</span>
+
+</div>

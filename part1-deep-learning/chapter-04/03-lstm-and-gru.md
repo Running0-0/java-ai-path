@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 4.2 RNN的核心思想](02-rnn-memory-and-forgetting.md)</span>
+
+<span>[4.4 实战：用Java实现文本生成 →](04-text-generation-practice.md)</span>
+
+</div>
+
+---
+
 # 4.3 LSTM与GRU：解决长期依赖的钥匙
 
 > "LSTM是深度学习领域最优雅的设计之一——它用门控机制实现了选择性的记忆与遗忘。"
@@ -362,3 +372,13 @@ LSTM学会了选择性处理信息：
 1. LSTM的细胞状态为什么能解决长期依赖？
 2. GRU相比LSTM做了哪些简化？为什么仍然有效？
 3. 在什么情况下你会选择GRU而不是LSTM？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 4.2 RNN的核心思想](02-rnn-memory-and-forgetting.md)</span>
+
+<span>[4.4 实战：用Java实现文本生成 →](04-text-generation-practice.md)</span>
+
+</div>

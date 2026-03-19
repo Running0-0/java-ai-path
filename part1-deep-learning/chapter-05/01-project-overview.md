@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 4.5 设计思考：时序建模的本质](../chapter-04/05-design-thinking-sequential-modeling.md)</span>
+
+<span>[5.2 数据准备与预处理 →](02-data-preparation.md)</span>
+
+</div>
+
+---
+
 # 5.1 项目概述与需求分析
 
 > "实践是检验真理的唯一标准。让我们用所学知识构建一个完整的AI应用。"
@@ -219,3 +229,13 @@ M5: 部署上线
 1. 为什么手写数字识别适合作为入门项目？
 2. 系统的分层架构有什么好处？
 3. 如果要支持更多字符（如字母），需要做哪些改动？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 4.5 设计思考：时序建模的本质](../chapter-04/05-design-thinking-sequential-modeling.md)</span>
+
+<span>[5.2 数据准备与预处理 →](02-data-preparation.md)</span>
+
+</div>

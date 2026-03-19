@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 3.1 图像识别问题](01-image-recognition-problem.md)</span>
+
+<span>[3.3 池化与全连接 →](03-pooling-and-fully-connected.md)</span>
+
+</div>
+
+---
+
 # 3.2 卷积操作的本质：特征提取的艺术
 
 > "卷积不是魔法，它是一种优雅的特征提取方式——用一个小的窗口扫描整个图像，发现其中的模式。"
@@ -560,3 +570,13 @@ public class EdgeDetectionDemo {
 1. 为什么卷积比全连接更适合图像处理？
 2. 步长和填充如何影响输出尺寸？
 3. 尝试设计一个卷积核来检测对角线边缘。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 3.1 图像识别问题](01-image-recognition-problem.md)</span>
+
+<span>[3.3 池化与全连接 →](03-pooling-and-fully-connected.md)</span>
+
+</div>

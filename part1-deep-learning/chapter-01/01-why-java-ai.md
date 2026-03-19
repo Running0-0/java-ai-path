@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 返回首页](../../README.md)</span>
+
+<span>[1.2 深度学习是什么 →](02-what-is-deep-learning.md)</span>
+
+</div>
+
+---
+
 # 1.1 为什么Java程序员需要学习AI
 
 > "未来十年，不会用AI的程序员，就像今天不会用搜索引擎的程序员一样寸步难行。"
@@ -158,3 +168,13 @@ Input + Output → 数据（人给） → 规则（机器学）
 1. 在你目前的项目中，有哪些场景可能适合应用AI？
 2. 作为Java程序员，你认为学习AI最大的挑战是什么？
 3. 你希望用AI解决什么样的实际问题？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 返回首页](../../README.md)</span>
+
+<span>[1.2 深度学习是什么 →](02-what-is-deep-learning.md)</span>
+
+</div>

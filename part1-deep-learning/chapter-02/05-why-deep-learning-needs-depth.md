@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 2.4 用Deeplearning4j实现你的第一个神经网络](04-first-neural-network-dl4j.md)</span>
+
+<span>[3.1 图像识别问题 →](../chapter-03/01-image-recognition-problem.md)</span>
+
+</div>
+
+---
+
 # 2.5 设计思考：为什么深度学习需要"深"
 
 > "深度不仅仅是层数的增加，更是抽象能力的跃迁。"
@@ -445,3 +455,13 @@ public class DeepNetworkBestPractices {
 1. 为什么增加深度初期效果好，但过深反而可能下降？
 2. 残差连接如何解决梯度消失问题？
 3. 在你的项目中，如何判断需要多深的网络？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 2.4 用Deeplearning4j实现你的第一个神经网络](04-first-neural-network-dl4j.md)</span>
+
+<span>[3.1 图像识别问题 →](../chapter-03/01-image-recognition-problem.md)</span>
+
+</div>

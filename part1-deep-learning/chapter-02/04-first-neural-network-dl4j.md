@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 2.3 反向传播](03-backpropagation.md)</span>
+
+<span>[2.5 设计思考：为什么深度学习需要"深" →](05-why-deep-learning-needs-depth.md)</span>
+
+</div>
+
+---
+
 # 2.4 用Deeplearning4j实现你的第一个神经网络
 
 > "理论指导实践，实践验证理论。现在让我们用真正的框架来构建神经网络。"
@@ -495,3 +505,13 @@ public class ImprovedMnistClassifier {
 1. 修改网络结构，尝试不同的隐藏层大小，观察准确率变化
 2. 添加Dropout层，比较训练集和测试集准确率
 3. 尝试不同的优化器（SGD、RMSProp），比较收敛速度
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 2.3 反向传播](03-backpropagation.md)</span>
+
+<span>[2.5 设计思考：为什么深度学习需要"深" →](05-why-deep-learning-needs-depth.md)</span>
+
+</div>

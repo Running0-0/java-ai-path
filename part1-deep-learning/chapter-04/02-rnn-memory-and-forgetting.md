@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 4.1 序列数据的挑战](01-sequence-data-challenge.md)</span>
+
+<span>[4.3 LSTM与GRU →](03-lstm-and-gru.md)</span>
+
+</div>
+
+---
+
 # 4.2 RNN的核心思想：记忆与遗忘
 
 > "记忆是智能的基础，遗忘是智慧的艺术。RNN在两者之间寻找平衡。"
@@ -372,3 +382,13 @@ RNN通过tanh激活函数实现"软遗忘"：
 1. 为什么tanh激活函数比ReLU更适合RNN？
 2. 双向RNN在什么场景下有用？
 3. 如何判断一个序列任务是否存在长期依赖问题？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 4.1 序列数据的挑战](01-sequence-data-challenge.md)</span>
+
+<span>[4.3 LSTM与GRU →](03-lstm-and-gru.md)</span>
+
+</div>

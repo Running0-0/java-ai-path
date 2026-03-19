@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 6.2 从N-gram到Word2Vec](02-ngram-to-word2vec.md)</span>
+
+<span>[6.4 为什么Transformer改变了NLP →](04-why-transformer-changed-nlp.md)</span>
+
+</div>
+
+---
+
 # 6.3 Transformer架构：注意力机制的革命
 
 > "Attention Is All You Need——这篇论文改变了NLP的一切。"
@@ -357,3 +367,13 @@ Transformer：全局视野
 1. 为什么Transformer比RNN更适合处理长序列？
 2. 多头注意力的"多头"有什么意义？
 3. 为什么需要位置编码？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 6.2 从N-gram到Word2Vec](02-ngram-to-word2vec.md)</span>
+
+<span>[6.4 为什么Transformer改变了NLP →](04-why-transformer-changed-nlp.md)</span>
+
+</div>

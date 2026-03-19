@@ -1,3 +1,13 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[← 3.2 卷积操作的本质](02-convolution-operation.md)</span>
+
+<span>[3.4 经典CNN架构解析 →](04-classic-cnn-architectures.md)</span>
+
+</div>
+
+---
+
 # 3.3 池化与全连接：信息压缩的智慧
 
 > "池化是智慧的遗忘，全连接是全局的整合。两者结合，让网络既高效又强大。"
@@ -482,3 +492,13 @@ public class MnistCnnDemo {
 1. 最大池化和平均池化各有什么优缺点？
 2. 为什么要在全连接层前展平特征图？
 3. 全局平均池化相比全连接有什么优势？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[← 3.2 卷积操作的本质](02-convolution-operation.md)</span>
+
+<span>[3.4 经典CNN架构解析 →](04-classic-cnn-architectures.md)</span>
+
+</div>
