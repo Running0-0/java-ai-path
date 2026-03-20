@@ -1,0 +1,435 @@
+# 8.4 实战：调用OpenAI API
+
+> "学会使用API是现代AI开发者的必备技能——让强大的模型为你所用。"
+
+## OpenAI API概述
+
+### 提供的模型
+
+| 模型 | 用途 | 特点 |
+|------|------|------|
+| GPT-4 | 文本生成 | 最强能力，支持多模态 |
+| GPT-3.5 | 文本生成 | 性价比高，速度快 |
+| DALL-E | 图像生成 | 文本生成图像 |
+| Whisper | 语音转文字 | 多语言支持 |
+| Embeddings | 文本嵌入 | 语义相似度计算 |
+
+### 获取API密钥
+
+```
+1. 访问 https://platform.openai.com
+2. 注册/登录账号
+3. 进入 API Keys 页面
+4. 创建新的API Key
+5. 保存好密钥（只显示一次）
+
+注意事项：
+- API调用需要付费
+- 保护好API Key，不要泄露
+- 设置使用限额防止意外消费
+```
+
+## Java调用OpenAI API
+
+### 添加依赖
+
+```xml
+<!-- pom.xml -->
+<dependencies>
+    <!-- HTTP客户端 -->
+    <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+        <version>4.12.0</version>
+    </dependency>
+    
+    <!-- JSON处理 -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.10.1</version>
+    </dependency>
+</dependencies>
+```
+
+### 基础客户端
+
+```java
+package com.example.openai;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import okhttp3.*;
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+/**
+ * OpenAI API客户端
+ */
+public class OpenAIClient {
+    
+    private static final String BASE_URL = "https://api.openai.com/v1";
+    private static final MediaType JSON = MediaType.get("application/json");
+    
+    private final String apiKey;
+    private final OkHttpClient httpClient;
+    private final Gson gson;
+    
+    public OpenAIClient(String apiKey) {
+        this.apiKey = apiKey;
+        this.gson = new Gson();
+        this.httpClient = new OkHttpClient.Builder()
+            .connectTimeout(30, TimeUnit.SECONDS)
+            .readTimeout(60, TimeUnit.SECONDS)
+            .build();
+    }
+    
+    /**
+     * 发送请求
+     */
+    private String post(String endpoint, String json) throws IOException {
+        RequestBody body = RequestBody.create(json, JSON);
+        
+        Request request = new Request.Builder()
+            .url(BASE_URL + endpoint)
+            .header("Authorization", "Bearer " + apiKey)
+            .header("Content-Type", "application/json")
+            .post(body)
+            .build();
+        
+        try (Response response = httpClient.newCall(request).execute()) {
+            if (!response.isSuccessful()) {
+                throw new IOException("Unexpected code: " + response);
+            }
+            return response.body().string();
+        }
+    }
+}
+```
+
+## 文本生成（Chat Completions）
+
+### 基础调用
+
+```java
+/**
+ * 聊天完成API
+ */
+public class ChatCompletion {
+    
+    private final OpenAIClient client;
+    
+    public ChatCompletion(OpenAIClient client) {
+        this.client = client;
+    }
+    
+    /**
+     * 简单对话
+     */
+    public String chat(String message) throws IOException {
+        JsonObject request = new JsonObject();
+        request.addProperty("model", "gpt-3.5-turbo");
+        
+        JsonObject userMessage = new JsonObject();
+        userMessage.addProperty("role", "user");
+        userMessage.addProperty("content", message);
+        
+        request.add("messages", gson.toJsonTree(
+            new JsonObject[]{userMessage}));
+        
+        String response = client.post("/chat/completions", 
+            request.toString());
+        
+        return parseResponse(response);
+    }
+    
+    /**
+     * 多轮对话
+     */
+    public String chat(List<Message> messages) throws IOException {
+        JsonObject request = new JsonObject();
+        request.addProperty("model", "gpt-3.5-turbo");
+        request.add("messages", gson.toJsonTree(messages));
+        request.addProperty("temperature", 0.7);
+        request.addProperty("max_tokens", 500);
+        
+        String response = client.post("/chat/completions",
+            request.toString());
+        
+        return parseResponse(response);
+    }
+    
+    private String parseResponse(String json) {
+        JsonObject obj = gson.fromJson(json, JsonObject.class);
+        return obj.getAsJsonArray("choices")
+            .get(0).getAsJsonObject()
+            .getAsJsonObject("message")
+            .get("content").getAsString();
+    }
+}
+
+/**
+ * 消息类
+ */
+class Message {
+    String role;    // "system", "user", "assistant"
+    String content;
+    
+    public Message(String role, String content) {
+        this.role = role;
+        this.content = content;
+    }
+}
+```
+
+### 高级参数
+
+```java
+/**
+ * 高级调用示例
+ */
+public class AdvancedChat {
+    
+    public String generateWithParameters(String prompt) 
+            throws IOException {
+        
+        JsonObject request = new JsonObject();
+        request.addProperty("model", "gpt-4");
+        
+        // 消息
+        JsonArray messages = new JsonArray();
+        
+        // 系统消息：设定角色和行为
+        JsonObject systemMsg = new JsonObject();
+        systemMsg.addProperty("role", "system");
+        systemMsg.addProperty("content", 
+            "你是一个专业的Java程序员，擅长解释技术概念。");
+        messages.add(systemMsg);
+        
+        // 用户消息
+        JsonObject userMsg = new JsonObject();
+        userMsg.addProperty("role", "user");
+        userMsg.addProperty("content", prompt);
+        messages.add(userMsg);
+        
+        request.add("messages", messages);
+        
+        // 温度：控制随机性 (0-2)
+        request.addProperty("temperature", 0.7);
+        
+        // 最大token数
+        request.addProperty("max_tokens", 1000);
+        
+        // Top-p采样
+        request.addProperty("top_p", 0.9);
+        
+        // 频率惩罚：减少重复
+        request.addProperty("frequency_penalty", 0.5);
+        
+        // 存在惩罚：鼓励多样性
+        request.addProperty("presence_penalty", 0.5);
+        
+        return client.post("/chat/completions", request.toString());
+    }
+}
+```
+
+## 实际应用场景
+
+### 代码助手
+
+```java
+/**
+ * AI代码助手
+ */
+public class AICodeAssistant {
+    
+    private final ChatCompletion chat;
+    
+    /**
+     * 解释代码
+     */
+    public String explainCode(String code) throws IOException {
+        List<Message> messages = Arrays.asList(
+            new Message("system", 
+                "你是一个Java专家，用简洁的语言解释代码。"),
+            new Message("user", 
+                "请解释这段代码：\n```java\n" + code + "\n```")
+        );
+        
+        return chat.chat(messages);
+    }
+    
+    /**
+     * 生成代码
+     */
+    public String generateCode(String description) throws IOException {
+        List<Message> messages = Arrays.asList(
+            new Message("system", 
+                "你是一个Java程序员，生成高质量、带注释的代码。"),
+            new Message("user", description)
+        );
+        
+        return chat.chat(messages);
+    }
+    
+    /**
+     * 重构建议
+     */
+    public String refactorSuggestion(String code) throws IOException {
+        List<Message> messages = Arrays.asList(
+            new Message("system", 
+                "你是一个代码审查专家，提供重构建议。"),
+            new Message("user", 
+                "请审查这段代码并提供重构建议：\n" + code)
+        );
+        
+        return chat.chat(messages);
+    }
+}
+```
+
+### 文本处理工具
+
+```java
+/**
+ * 文本处理工具
+ */
+public class TextProcessor {
+    
+    private final ChatCompletion chat;
+    
+    /**
+     * 文本摘要
+     */
+    public String summarize(String text) throws IOException {
+        return chat.chat(Arrays.asList(
+            new Message("user", 
+                "请用一段话总结以下内容：\n" + text)
+        ));
+    }
+    
+    /**
+     * 情感分析
+     */
+    public String sentiment(String text) throws IOException {
+        return chat.chat(Arrays.asList(
+            new Message("user", 
+                "判断以下文本的情感（正面/负面/中性）：\n" + text)
+        ));
+    }
+    
+    /**
+     * 翻译
+     */
+    public String translate(String text, String targetLang) 
+            throws IOException {
+        return chat.chat(Arrays.asList(
+            new Message("user", 
+                "将以下内容翻译成" + targetLang + "：\n" + text)
+        ));
+    }
+}
+```
+
+## 错误处理与优化
+
+### 异常处理
+
+```java
+/**
+ * 健壮的错误处理
+ */
+public class RobustOpenAIClient {
+    
+    private static final int MAX_RETRIES = 3;
+    private static final long RETRY_DELAY = 1000;
+    
+    public String chatWithRetry(List<Message> messages) {
+        int retries = 0;
+        
+        while (retries < MAX_RETRIES) {
+            try {
+                return chat.chat(messages);
+            } catch (IOException e) {
+                retries++;
+                
+                if (retries >= MAX_RETRIES) {
+                    throw new RuntimeException(
+                        "API调用失败，已重试" + MAX_RETRIES + "次", e);
+                }
+                
+                // 指数退避
+                try {
+                    Thread.sleep(RETRY_DELAY * retries);
+                } catch (InterruptedException ie) {
+                    Thread.currentThread().interrupt();
+                }
+            }
+        }
+        
+        return null;
+    }
+}
+```
+
+### 成本控制
+
+```java
+/**
+ * API调用成本控制
+ */
+public class CostController {
+    
+    // Token价格（每1K tokens）
+    private static final Map<String, Double> PRICES = Map.of(
+        "gpt-3.5-turbo", 0.002,
+        "gpt-4", 0.03
+    );
+    
+    private double totalCost = 0;
+    private double costLimit = 10.0; // 美元
+    
+    /**
+     * 检查是否超出预算
+     */
+    public boolean canMakeRequest(String model, int estimatedTokens) {
+        double price = PRICES.getOrDefault(model, 0.002);
+        double estimatedCost = (estimatedTokens / 1000.0) * price;
+        
+        return (totalCost + estimatedCost) < costLimit;
+    }
+    
+    /**
+     * 记录实际消耗
+     */
+    public void recordUsage(String model, int tokens) {
+        double price = PRICES.getOrDefault(model, 0.002);
+        totalCost += (tokens / 1000.0) * price;
+    }
+}
+```
+
+## 小结
+
+本章我们学习了：
+
+1. **OpenAI API**：模型选择，密钥获取
+2. **Java调用**：HTTP客户端，JSON处理
+3. **文本生成**：基础调用，高级参数
+4. **实际应用**：代码助手，文本处理
+5. **错误处理**：重试机制，成本控制
+
+**关键认识：**
+API调用让强大的AI模型触手可及，掌握API使用是现代AI开发的基础。
+
+**下一步：** 我们将对比生成式与理解式模型。
+
+---
+
+**练习题：**
+
+1. 如何设置API调用的参数来控制生成结果？
+2. 如何实现API调用的错误重试？
+3. 设计一个使用OpenAI API的Java应用。
