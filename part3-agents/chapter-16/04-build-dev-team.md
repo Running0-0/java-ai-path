@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 16.3 通信协议](03-communication-protocol.md)</span>
-
-<span>[16.5 设计思考：群体智能 &rarr;](05-swarm-intelligence.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-communication-protocol.md">&larr; 16.3 通信协议</a></td>
+      <td align="right"><a href="05-swarm-intelligence.md">16.5 设计思考：群体智能 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 16.4 实战：构建虚拟开发团队
@@ -183,10 +182,9 @@ public class TeamDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 16.3 通信协议](03-communication-protocol.md)</span>
-
-<span>[16.5 设计思考：群体智能 &rarr;](05-swarm-intelligence.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-communication-protocol.md">&larr; 16.3 通信协议</a></td>
+      <td align="right"><a href="05-swarm-intelligence.md">16.5 设计思考：群体智能 &rarr;</a></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 15.5 设计思考：遗忘的艺术](../chapter-15/05-art-of-forgetting.md)</span>
-
-<span>[16.2 角色与协作 &rarr;](02-roles-collaboration.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-15/05-art-of-forgetting.md">&larr; 15.5 设计思考：遗忘的艺术</a></td>
+      <td align="right"><a href="02-roles-collaboration.md">16.2 角色与协作 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 16.1 多智能体概述
@@ -279,10 +278,9 @@ class MessageBus {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 15.5 设计思考：遗忘的艺术](../chapter-15/05-art-of-forgetting.md)</span>
-
-<span>[16.2 角色与协作 &rarr;](02-roles-collaboration.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-15/05-art-of-forgetting.md">&larr; 15.5 设计思考：遗忘的艺术</a></td>
+      <td align="right"><a href="02-roles-collaboration.md">16.2 角色与协作 &rarr;</a></td>
+   </tr>
+</table>

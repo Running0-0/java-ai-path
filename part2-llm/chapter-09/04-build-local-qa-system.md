@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 9.3 LangChain4j：Java的LLM应用框架](03-langchain4j-framework.md)</span>
-
-<span>[9.5 设计思考：云端vs本地部署 &rarr;](05-cloud-vs-local-deployment.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-langchain4j-framework.md">&larr; 9.3 LangChain4j：Java的LLM应用框架</a></td>
+      <td align="right"><a href="05-cloud-vs-local-deployment.md">9.5 设计思考：云端vs本地部署 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 9.4 实战：构建本地问答系统
@@ -375,10 +374,9 @@ public class OptimizationTips {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 9.3 LangChain4j：Java的LLM应用框架](03-langchain4j-framework.md)</span>
-
-<span>[9.5 设计思考：云端vs本地部署 &rarr;](05-cloud-vs-local-deployment.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-langchain4j-framework.md">&larr; 9.3 LangChain4j：Java的LLM应用框架</a></td>
+      <td align="right"><a href="05-cloud-vs-local-deployment.md">9.5 设计思考：云端vs本地部署 &rarr;</a></td>
+   </tr>
+</table>

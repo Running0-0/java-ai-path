@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 16.4 实战：构建虚拟开发团队](04-build-dev-team.md)</span>
-
-<span>[17.1 项目规划 &rarr;](../chapter-17/01-project-planning.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-build-dev-team.md">&larr; 16.4 实战：构建虚拟开发团队</a></td>
+      <td align="right"><a href="../chapter-17/01-project-planning.md">17.1 项目规划 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 16.5 设计思考：群体智能
@@ -157,10 +156,9 @@ public class ParticleSwarmOptimization {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 16.4 实战：构建虚拟开发团队](04-build-dev-team.md)</span>
-
-<span>[17.1 项目规划 &rarr;](../chapter-17/01-project-planning.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-build-dev-team.md">&larr; 16.4 实战：构建虚拟开发团队</a></td>
+      <td align="right"><a href="../chapter-17/01-project-planning.md">17.1 项目规划 &rarr;</a></td>
+   </tr>
+</table>

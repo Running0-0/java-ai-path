@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 3.2 卷积操作的本质](02-convolution-operation.md)</span>
-
-<span>[3.4 经典CNN架构解析 →](04-classic-cnn-architectures.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-convolution-operation.md">← 3.2 卷积操作的本质</a></td>
+      <td align="right"><a href="04-classic-cnn-architectures.md">3.4 经典CNN架构解析 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -495,10 +494,9 @@ public class MnistCnnDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 3.2 卷积操作的本质](02-convolution-operation.md)</span>
-
-<span>[3.4 经典CNN架构解析 →](04-classic-cnn-architectures.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-convolution-operation.md">← 3.2 卷积操作的本质</a></td>
+      <td align="right"><a href="04-classic-cnn-architectures.md">3.4 经典CNN架构解析 →</a></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 4.5 设计思考：时序建模的本质](../chapter-04/05-design-thinking-sequential-modeling.md)</span>
-
-<span>[5.2 数据准备与预处理 →](02-data-preparation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-04/05-design-thinking-sequential-modeling.md">← 4.5 设计思考：时序建模的本质</a></td>
+      <td align="right"><a href="02-data-preparation.md">5.2 数据准备与预处理 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -232,10 +231,9 @@ M5: 部署上线
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 4.5 设计思考：时序建模的本质](../chapter-04/05-design-thinking-sequential-modeling.md)</span>
-
-<span>[5.2 数据准备与预处理 →](02-data-preparation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-04/05-design-thinking-sequential-modeling.md">← 4.5 设计思考：时序建模的本质</a></td>
+      <td align="right"><a href="02-data-preparation.md">5.2 数据准备与预处理 →</a></td>
+   </tr>
+</table>

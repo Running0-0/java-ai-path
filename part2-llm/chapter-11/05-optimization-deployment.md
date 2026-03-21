@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 11.4 对话系统实现](04-conversation-system.md)</span>
-
-<span>[12.1 智能体概念与架构 &rarr;](../../part3-agents/chapter-12/01-what-is-agent.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-conversation-system.md">&larr; 11.4 对话系统实现</a></td>
+      <td align="right"><a href="../../part3-agents/chapter-12/01-what-is-agent.md">12.1 智能体概念与架构 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 11.5 部署与优化
@@ -388,10 +387,9 @@ spec:
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 11.4 对话系统实现](04-conversation-system.md)</span>
-
-<span>[12.1 智能体概念与架构 &rarr;](../../part3-agents/chapter-12/01-what-is-agent.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-conversation-system.md">&larr; 11.4 对话系统实现</a></td>
+      <td align="right"><a href="../../part3-agents/chapter-12/01-what-is-agent.md">12.1 智能体概念与架构 &rarr;</a></td>
+   </tr>
+</table>

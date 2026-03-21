@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 11.2 文档解析与向量化](02-document-parsing-vectorization.md)</span>
-
-<span>[11.4 对话系统实现 &rarr;](04-conversation-system.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-document-parsing-vectorization.md">&larr; 11.2 文档解析与向量化</a></td>
+      <td align="right"><a href="04-conversation-system.md">11.4 对话系统实现 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 11.3 RAG检索实现
@@ -384,10 +383,9 @@ public class RetrievalCache {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 11.2 文档解析与向量化](02-document-parsing-vectorization.md)</span>
-
-<span>[11.4 对话系统实现 &rarr;](04-conversation-system.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-document-parsing-vectorization.md">&larr; 11.2 文档解析与向量化</a></td>
+      <td align="right"><a href="04-conversation-system.md">11.4 对话系统实现 &rarr;</a></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 11.3 RAG检索实现](03-rag-implementation.md)</span>
-
-<span>[11.5 部署与优化 &rarr;](05-optimization-deployment.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-rag-implementation.md">&larr; 11.3 RAG检索实现</a></td>
+      <td align="right"><a href="05-optimization-deployment.md">11.5 部署与优化 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 11.4 对话系统实现
@@ -375,10 +374,9 @@ public class StreamingConversationService {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 11.3 RAG检索实现](03-rag-implementation.md)</span>
-
-<span>[11.5 部署与优化 &rarr;](05-optimization-deployment.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-rag-implementation.md">&larr; 11.3 RAG检索实现</a></td>
+      <td align="right"><a href="05-optimization-deployment.md">11.5 部署与优化 &rarr;</a></td>
+   </tr>
+</table>

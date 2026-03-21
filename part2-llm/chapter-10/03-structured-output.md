@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 10.2 高级提示模式](02-prompt-patterns.md)</span>
-
-<span>[10.4 提示模板与复用 &rarr;](04-design-prompt-templates.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-prompt-patterns.md">&larr; 10.2 高级提示模式</a></td>
+      <td align="right"><a href="04-design-prompt-templates.md">10.4 提示模板与复用 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 10.3 结构化输出
@@ -373,10 +372,9 @@ public class OutputValidator {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 10.2 高级提示模式](02-prompt-patterns.md)</span>
-
-<span>[10.4 提示模板与复用 &rarr;](04-design-prompt-templates.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-prompt-patterns.md">&larr; 10.2 高级提示模式</a></td>
+      <td align="right"><a href="04-design-prompt-templates.md">10.4 提示模板与复用 &rarr;</a></td>
+   </tr>
+</table>

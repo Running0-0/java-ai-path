@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 9.5 设计思考：云端vs本地部署](../chapter-09/05-cloud-vs-local-deployment.md)</span>
-
-<span>[10.2 高级提示模式 &rarr;](02-prompt-patterns.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-09/05-cloud-vs-local-deployment.md">&larr; 9.5 设计思考：云端vs本地部署</a></td>
+      <td align="right"><a href="02-prompt-patterns.md">10.2 高级提示模式 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 10.1 提示工程基础
@@ -302,10 +301,9 @@ Unchecked Exception的区别，
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 9.5 设计思考：云端vs本地部署](../chapter-09/05-cloud-vs-local-deployment.md)</span>
-
-<span>[10.2 高级提示模式 &rarr;](02-prompt-patterns.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-09/05-cloud-vs-local-deployment.md">&larr; 9.5 设计思考：云端vs本地部署</a></td>
+      <td align="right"><a href="02-prompt-patterns.md">10.2 高级提示模式 &rarr;</a></td>
+   </tr>
+</table>

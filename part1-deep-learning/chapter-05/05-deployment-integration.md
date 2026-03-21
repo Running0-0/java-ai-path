@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 5.4 模型评估与优化](04-model-evaluation-optimization.md)</span>
-
-<span>[6.1 什么是语言模型 →](../../part2-llm/chapter-06/01-what-is-language-model.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-model-evaluation-optimization.md">← 5.4 模型评估与优化</a></td>
+      <td align="right"><a href="../../part2-llm/chapter-06/01-what-is-language-model.md">6.1 什么是语言模型 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -573,10 +572,9 @@ spec:
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 5.4 模型评估与优化](04-model-evaluation-optimization.md)</span>
-
-<span>[6.1 什么是语言模型 →](../../part2-llm/chapter-06/01-what-is-language-model.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-model-evaluation-optimization.md">← 5.4 模型评估与优化</a></td>
+      <td align="right"><a href="../../part2-llm/chapter-06/01-what-is-language-model.md">6.1 什么是语言模型 →</a></td>
+   </tr>
+</table>

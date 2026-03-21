@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 2.2 前向传播](02-forward-propagation.md)</span>
-
-<span>[2.4 用Deeplearning4j实现你的第一个神经网络 →](04-first-neural-network-dl4j.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-forward-propagation.md">← 2.2 前向传播</a></td>
+      <td align="right"><a href="04-first-neural-network-dl4j.md">2.4 用Deeplearning4j实现你的第一个神经网络 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -547,10 +546,9 @@ public class BackpropagationDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 2.2 前向传播](02-forward-propagation.md)</span>
-
-<span>[2.4 用Deeplearning4j实现你的第一个神经网络 →](04-first-neural-network-dl4j.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-forward-propagation.md">← 2.2 前向传播</a></td>
+      <td align="right"><a href="04-first-neural-network-dl4j.md">2.4 用Deeplearning4j实现你的第一个神经网络 →</a></td>
+   </tr>
+</table>

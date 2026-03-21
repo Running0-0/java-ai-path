@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 1.3 搭建你的第一个AI开发环境](03-first-ai-environment.md)</span>
-
-<span>[2.1 从感知机到神经网络 →](../chapter-02/01-perceptron-to-neural-network.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-first-ai-environment.md">← 1.3 搭建你的第一个AI开发环境</a></td>
+      <td align="right"><a href="../chapter-02/01-perceptron-to-neural-network.md">2.1 从感知机到神经网络 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -403,10 +402,9 @@ public class AIApplication {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 1.3 搭建你的第一个AI开发环境](03-first-ai-environment.md)</span>
-
-<span>[2.1 从感知机到神经网络 →](../chapter-02/01-perceptron-to-neural-network.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-first-ai-environment.md">← 1.3 搭建你的第一个AI开发环境</a></td>
+      <td align="right"><a href="../chapter-02/01-perceptron-to-neural-network.md">2.1 从感知机到神经网络 →</a></td>
+   </tr>
+</table>

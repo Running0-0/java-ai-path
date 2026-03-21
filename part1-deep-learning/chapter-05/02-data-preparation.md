@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 5.1 项目概述与需求分析](01-project-overview.md)</span>
-
-<span>[5.3 模型设计与训练 →](03-model-design-training.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-project-overview.md">← 5.1 项目概述与需求分析</a></td>
+      <td align="right"><a href="03-model-design-training.md">5.3 模型设计与训练 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -342,10 +341,9 @@ public class DataPipeline {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 5.1 项目概述与需求分析](01-project-overview.md)</span>
-
-<span>[5.3 模型设计与训练 →](03-model-design-training.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-project-overview.md">← 5.1 项目概述与需求分析</a></td>
+      <td align="right"><a href="03-model-design-training.md">5.3 模型设计与训练 →</a></td>
+   </tr>
+</table>

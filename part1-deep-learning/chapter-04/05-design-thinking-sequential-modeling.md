@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 4.4 实战：用Java实现文本生成](04-text-generation-practice.md)</span>
-
-<span>[5.1 项目概述与需求分析 →](../chapter-05/01-project-overview.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-text-generation-practice.md">← 4.4 实战：用Java实现文本生成</a></td>
+      <td align="right"><a href="../chapter-05/01-project-overview.md">5.1 项目概述与需求分析 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -300,10 +299,9 @@ for (int i = 0; i < seq.length; i += windowSize) {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 4.4 实战：用Java实现文本生成](04-text-generation-practice.md)</span>
-
-<span>[5.1 项目概述与需求分析 →](../chapter-05/01-project-overview.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-text-generation-practice.md">← 4.4 实战：用Java实现文本生成</a></td>
+      <td align="right"><a href="../chapter-05/01-project-overview.md">5.1 项目概述与需求分析 →</a></td>
+   </tr>
+</table>

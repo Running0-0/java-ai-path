@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 2.5 设计思考：为什么深度学习需要"深"](../chapter-02/05-why-deep-learning-needs-depth.md)</span>
-
-<span>[3.2 卷积操作的本质 →](02-convolution-operation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-02/05-why-deep-learning-needs-depth.md">← 2.5 设计思考：为什么深度学习需要"深"</a></td>
+      <td align="right"><a href="02-convolution-operation.md">3.2 卷积操作的本质 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -378,10 +377,9 @@ public class ImageLoadingDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 2.5 设计思考：为什么深度学习需要"深"](../chapter-02/05-why-deep-learning-needs-depth.md)</span>
-
-<span>[3.2 卷积操作的本质 →](02-convolution-operation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-02/05-why-deep-learning-needs-depth.md">← 2.5 设计思考：为什么深度学习需要"深"</a></td>
+      <td align="right"><a href="02-convolution-operation.md">3.2 卷积操作的本质 →</a></td>
+   </tr>
+</table>

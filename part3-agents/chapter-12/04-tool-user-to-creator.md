@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 12.3 智能体与LLM的关系](03-agent-llm-relationship.md)</span>
-
-<span>[13.1 Function Calling基础 &rarr;](../chapter-13/01-function-calling.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-agent-llm-relationship.md">&larr; 12.3 智能体与LLM的关系</a></td>
+      <td align="right"><a href="../chapter-13/01-function-calling.md">13.1 Function Calling基础 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 12.4 从工具使用者到创造者
@@ -346,10 +345,9 @@ public class AutoToolCreationDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 12.3 智能体与LLM的关系](03-agent-llm-relationship.md)</span>
-
-<span>[13.1 Function Calling基础 &rarr;](../chapter-13/01-function-calling.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-agent-llm-relationship.md">&larr; 12.3 智能体与LLM的关系</a></td>
+      <td align="right"><a href="../chapter-13/01-function-calling.md">13.1 Function Calling基础 &rarr;</a></td>
+   </tr>
+</table>

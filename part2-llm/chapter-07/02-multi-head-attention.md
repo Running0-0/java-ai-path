@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 7.1 自注意力机制：让词与词对话](01-self-attention.md)</span>
-
-<span>[7.3 位置编码：给序列注入顺序信息 &rarr;](03-positional-encoding.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-self-attention.md">&larr; 7.1 自注意力机制：让词与词对话</a></td>
+      <td align="right"><a href="03-positional-encoding.md">7.3 位置编码：给序列注入顺序信息 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 7.2 多头注意力：并行捕捉多种关系
@@ -277,10 +276,9 @@ public class MultiHeadAttentionOptimization {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 7.1 自注意力机制：让词与词对话](01-self-attention.md)</span>
-
-<span>[7.3 位置编码：给序列注入顺序信息 &rarr;](03-positional-encoding.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-self-attention.md">&larr; 7.1 自注意力机制：让词与词对话</a></td>
+      <td align="right"><a href="03-positional-encoding.md">7.3 位置编码：给序列注入顺序信息 &rarr;</a></td>
+   </tr>
+</table>

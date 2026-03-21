@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 返回首页](../../README.md)</span>
-
-<span>[1.2 深度学习是什么 →](02-what-is-deep-learning.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../../README.md">← 返回首页</a></td>
+      <td align="right"><a href="02-what-is-deep-learning.md">1.2 深度学习是什么 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -171,10 +170,9 @@ Input + Output → 数据（人给） → 规则（机器学）
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 返回首页](../../README.md)</span>
-
-<span>[1.2 深度学习是什么 →](02-what-is-deep-learning.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../../README.md">← 返回首页</a></td>
+      <td align="right"><a href="02-what-is-deep-learning.md">1.2 深度学习是什么 →</a></td>
+   </tr>
+</table>

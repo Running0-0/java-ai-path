@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 4.1 序列数据的挑战](01-sequence-data-challenge.md)</span>
-
-<span>[4.3 LSTM与GRU →](03-lstm-and-gru.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-sequence-data-challenge.md">← 4.1 序列数据的挑战</a></td>
+      <td align="right"><a href="03-lstm-and-gru.md">4.3 LSTM与GRU →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -385,10 +384,9 @@ RNN通过tanh激活函数实现"软遗忘"：
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 4.1 序列数据的挑战](01-sequence-data-challenge.md)</span>
-
-<span>[4.3 LSTM与GRU →](03-lstm-and-gru.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-sequence-data-challenge.md">← 4.1 序列数据的挑战</a></td>
+      <td align="right"><a href="03-lstm-and-gru.md">4.3 LSTM与GRU →</a></td>
+   </tr>
+</table>

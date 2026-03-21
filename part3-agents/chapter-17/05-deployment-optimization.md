@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 17.4 用户界面](04-user-interface.md)</span>
-
-<span></span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-user-interface.md">&larr; 17.4 用户界面</a></td>
+      <td align="right"></td>
+   </tr>
+</table>
 ---
 
 # 17.5 部署与优化
@@ -125,10 +124,9 @@ public class AssistantMetrics {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 17.4 用户界面](04-user-interface.md)</span>
-
-<span></span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-user-interface.md">&larr; 17.4 用户界面</a></td>
+      <td align="right"></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 14.1 任务分解](01-task-decomposition.md)</span>
-
-<span>[14.3 思维链与思维树 &rarr;](03-chain-tree-of-thought.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-task-decomposition.md">&larr; 14.1 任务分解</a></td>
+      <td align="right"><a href="03-chain-tree-of-thought.md">14.3 思维链与思维树 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 14.2 ReAct框架
@@ -294,10 +293,9 @@ ReAct是智能体的经典架构，简单有效，适合大多数场景。
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 14.1 任务分解](01-task-decomposition.md)</span>
-
-<span>[14.3 思维链与思维树 &rarr;](03-chain-tree-of-thought.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-task-decomposition.md">&larr; 14.1 任务分解</a></td>
+      <td align="right"><a href="03-chain-tree-of-thought.md">14.3 思维链与思维树 &rarr;</a></td>
+   </tr>
+</table>

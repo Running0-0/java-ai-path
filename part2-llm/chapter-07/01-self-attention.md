@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 6.4 设计思考：为什么Transformer改变了NLP](../chapter-06/04-why-transformer-changed-nlp.md)</span>
-
-<span>[7.2 多头注意力：并行捕捉多种关系 &rarr;](02-multi-head-attention.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-06/04-why-transformer-changed-nlp.md">&larr; 6.4 设计思考：为什么Transformer改变了NLP</a></td>
+      <td align="right"><a href="02-multi-head-attention.md">7.2 多头注意力：并行捕捉多种关系 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 7.1 自注意力机制：让词与词对话
@@ -361,10 +360,9 @@ Attention(Q,K,V) = softmax(QK^T / √d_k) V
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 6.4 设计思考：为什么Transformer改变了NLP](../chapter-06/04-why-transformer-changed-nlp.md)</span>
-
-<span>[7.2 多头注意力：并行捕捉多种关系 &rarr;](02-multi-head-attention.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-06/04-why-transformer-changed-nlp.md">&larr; 6.4 设计思考：为什么Transformer改变了NLP</a></td>
+      <td align="right"><a href="02-multi-head-attention.md">7.2 多头注意力：并行捕捉多种关系 &rarr;</a></td>
+   </tr>
+</table>

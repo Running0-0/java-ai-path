@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 14.2 ReAct框架](02-react-framework.md)</span>
-
-<span>[14.4 构建规划智能体 &rarr;](04-build-planning-agent.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-react-framework.md">&larr; 14.2 ReAct框架</a></td>
+      <td align="right"><a href="04-build-planning-agent.md">14.4 构建规划智能体 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 14.3 思维链与思维树
@@ -308,10 +307,9 @@ CoT和ToT提供了不同的推理方式，根据问题复杂度选择合适的�
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 14.2 ReAct框架](02-react-framework.md)</span>
-
-<span>[14.4 构建规划智能体 &rarr;](04-build-planning-agent.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-react-framework.md">&larr; 14.2 ReAct框架</a></td>
+      <td align="right"><a href="04-build-planning-agent.md">14.4 构建规划智能体 &rarr;</a></td>
+   </tr>
+</table>

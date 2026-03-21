@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 14.3 思维链与思维树](03-chain-tree-of-thought.md)</span>
-
-<span>[14.5 设计思考：推理边界 &rarr;](05-reasoning-boundaries.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-chain-tree-of-thought.md">&larr; 14.3 思维链与思维树</a></td>
+      <td align="right"><a href="05-reasoning-boundaries.md">14.5 设计思考：推理边界 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 14.4 构建规划智能体
@@ -288,10 +287,9 @@ public class ProjectPlanningAssistant {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 14.3 思维链与思维树](03-chain-tree-of-thought.md)</span>
-
-<span>[14.5 设计思考：推理边界 &rarr;](05-reasoning-boundaries.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-chain-tree-of-thought.md">&larr; 14.3 思维链与思维树</a></td>
+      <td align="right"><a href="05-reasoning-boundaries.md">14.5 设计思考：推理边界 &rarr;</a></td>
+   </tr>
+</table>

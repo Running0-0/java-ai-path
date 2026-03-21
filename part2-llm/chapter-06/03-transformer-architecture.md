@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 6.2 从N-gram到Word2Vec](02-ngram-to-word2vec.md)</span>
-
-<span>[6.4 为什么Transformer改变了NLP →](04-why-transformer-changed-nlp.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-ngram-to-word2vec.md">← 6.2 从N-gram到Word2Vec</a></td>
+      <td align="right"><a href="04-why-transformer-changed-nlp.md">6.4 为什么Transformer改变了NLP →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -370,10 +369,9 @@ Transformer：全局视野
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 6.2 从N-gram到Word2Vec](02-ngram-to-word2vec.md)</span>
-
-<span>[6.4 为什么Transformer改变了NLP →](04-why-transformer-changed-nlp.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-ngram-to-word2vec.md">← 6.2 从N-gram到Word2Vec</a></td>
+      <td align="right"><a href="04-why-transformer-changed-nlp.md">6.4 为什么Transformer改变了NLP →</a></td>
+   </tr>
+</table>

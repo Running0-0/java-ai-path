@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 12.4 从工具使用者到创造者](../chapter-12/04-tool-user-to-creator.md)</span>
-
-<span>[13.2 工具定义与注册 &rarr;](02-tool-definition-registration.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-12/04-tool-user-to-creator.md">&larr; 12.4 从工具使用者到创造者</a></td>
+      <td align="right"><a href="02-tool-definition-registration.md">13.2 工具定义与注册 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 13.1 Function Calling基础
@@ -326,10 +325,9 @@ public class WellDesignedFunctions {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 12.4 从工具使用者到创造者](../chapter-12/04-tool-user-to-creator.md)</span>
-
-<span>[13.2 工具定义与注册 &rarr;](02-tool-definition-registration.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-12/04-tool-user-to-creator.md">&larr; 12.4 从工具使用者到创造者</a></td>
+      <td align="right"><a href="02-tool-definition-registration.md">13.2 工具定义与注册 &rarr;</a></td>
+   </tr>
+</table>

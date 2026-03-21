@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 13.4 数据库工具](04-database-tools.md)</span>
-
-<span>[14.1 任务分解 &rarr;](../chapter-14/01-task-decomposition.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-database-tools.md">&larr; 13.4 数据库工具</a></td>
+      <td align="right"><a href="../chapter-14/01-task-decomposition.md">14.1 任务分解 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 13.5 安全性与可控性
@@ -340,10 +339,9 @@ public class AuditService {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 13.4 数据库工具](04-database-tools.md)</span>
-
-<span>[14.1 任务分解 &rarr;](../chapter-14/01-task-decomposition.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-database-tools.md">&larr; 13.4 数据库工具</a></td>
+      <td align="right"><a href="../chapter-14/01-task-decomposition.md">14.1 任务分解 &rarr;</a></td>
+   </tr>
+</table>

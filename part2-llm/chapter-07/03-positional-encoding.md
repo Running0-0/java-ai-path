@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 7.2 多头注意力：并行捕捉多种关系](02-multi-head-attention.md)</span>
-
-<span>[7.4 编码器-解码器架构 &rarr;](04-encoder-decoder-architecture.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-multi-head-attention.md">&larr; 7.2 多头注意力：并行捕捉多种关系</a></td>
+      <td align="right"><a href="04-encoder-decoder-architecture.md">7.4 编码器-解码器架构 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 7.3 位置编码：给序列注入顺序信息
@@ -305,10 +304,9 @@ RoPE将位置信息编码为旋转：
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 7.2 多头注意力：并行捕捉多种关系](02-multi-head-attention.md)</span>
-
-<span>[7.4 编码器-解码器架构 &rarr;](04-encoder-decoder-architecture.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-multi-head-attention.md">&larr; 7.2 多头注意力：并行捕捉多种关系</a></td>
+      <td align="right"><a href="04-encoder-decoder-architecture.md">7.4 编码器-解码器架构 &rarr;</a></td>
+   </tr>
+</table>

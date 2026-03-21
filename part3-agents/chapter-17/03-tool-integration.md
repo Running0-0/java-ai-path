@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 17.2 核心能力实现](02-core-abilities.md)</span>
-
-<span>[17.4 用户界面 &rarr;](04-user-interface.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-core-abilities.md">&larr; 17.2 核心能力实现</a></td>
+      <td align="right"><a href="04-user-interface.md">17.4 用户界面 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 17.3 工具集成
@@ -178,10 +177,9 @@ public class ToolConfiguration {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 17.2 核心能力实现](02-core-abilities.md)</span>
-
-<span>[17.4 用户界面 &rarr;](04-user-interface.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-core-abilities.md">&larr; 17.2 核心能力实现</a></td>
+      <td align="right"><a href="04-user-interface.md">17.4 用户界面 &rarr;</a></td>
+   </tr>
+</table>

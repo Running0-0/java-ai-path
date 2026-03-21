@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 10.4 提示模板与复用](04-design-prompt-templates.md)</span>
-
-<span>[11.1 项目架构设计 &rarr;](../chapter-11/01-project-background-architecture.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-design-prompt-templates.md">&larr; 10.4 提示模板与复用</a></td>
+      <td align="right"><a href="../chapter-11/01-project-background-architecture.md">11.1 项目架构设计 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 10.5 设计思考：提示即编程
@@ -282,10 +281,9 @@ Java程序员的应对策略：
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 10.4 提示模板与复用](04-design-prompt-templates.md)</span>
-
-<span>[11.1 项目架构设计 &rarr;](../chapter-11/01-project-background-architecture.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-design-prompt-templates.md">&larr; 10.4 提示模板与复用</a></td>
+      <td align="right"><a href="../chapter-11/01-project-background-architecture.md">11.1 项目架构设计 &rarr;</a></td>
+   </tr>
+</table>

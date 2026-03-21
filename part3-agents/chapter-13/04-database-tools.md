@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 13.3 构建自定义工具](03-build-custom-tools.md)</span>
-
-<span>[13.5 安全性与可控性 &rarr;](05-security-controllability.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-build-custom-tools.md">&larr; 13.3 构建自定义工具</a></td>
+      <td align="right"><a href="05-security-controllability.md">13.5 安全性与可控性 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 13.4 数据库工具
@@ -350,10 +349,9 @@ public class DatabaseAssistantDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 13.3 构建自定义工具](03-build-custom-tools.md)</span>
-
-<span>[13.5 安全性与可控性 &rarr;](05-security-controllability.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-build-custom-tools.md">&larr; 13.3 构建自定义工具</a></td>
+      <td align="right"><a href="05-security-controllability.md">13.5 安全性与可控性 &rarr;</a></td>
+   </tr>
+</table>

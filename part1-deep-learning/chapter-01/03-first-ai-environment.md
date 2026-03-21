@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 1.2 深度学习是什么](02-what-is-deep-learning.md)</span>
-
-<span>[1.4 Java AI生态全景图 →](04-java-ai-ecosystem.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-what-is-deep-learning.md">← 1.2 深度学习是什么</a></td>
+      <td align="right"><a href="04-java-ai-ecosystem.md">1.4 Java AI生态全景图 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -436,10 +435,9 @@ mvn dependency:resolve
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 1.2 深度学习是什么](02-what-is-deep-learning.md)</span>
-
-<span>[1.4 Java AI生态全景图 →](04-java-ai-ecosystem.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-what-is-deep-learning.md">← 1.2 深度学习是什么</a></td>
+      <td align="right"><a href="04-java-ai-ecosystem.md">1.4 Java AI生态全景图 →</a></td>
+   </tr>
+</table>

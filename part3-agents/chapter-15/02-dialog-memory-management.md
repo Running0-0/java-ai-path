@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 15.1 短期与长期记忆](01-short-long-term-memory.md)</span>
-
-<span>[15.3 向量数据库 &rarr;](03-vector-database.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-short-long-term-memory.md">&larr; 15.1 短期与长期记忆</a></td>
+      <td align="right"><a href="03-vector-database.md">15.3 向量数据库 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 15.2 对话记忆管理
@@ -261,10 +260,9 @@ public class PersistentChatMemory {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 15.1 短期与长期记忆](01-short-long-term-memory.md)</span>
-
-<span>[15.3 向量数据库 &rarr;](03-vector-database.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-short-long-term-memory.md">&larr; 15.1 短期与长期记忆</a></td>
+      <td align="right"><a href="03-vector-database.md">15.3 向量数据库 &rarr;</a></td>
+   </tr>
+</table>

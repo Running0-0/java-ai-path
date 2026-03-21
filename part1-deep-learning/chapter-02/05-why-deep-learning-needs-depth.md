@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 2.4 用Deeplearning4j实现你的第一个神经网络](04-first-neural-network-dl4j.md)</span>
-
-<span>[3.1 图像识别问题 →](../chapter-03/01-image-recognition-problem.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-first-neural-network-dl4j.md">← 2.4 用Deeplearning4j实现你的第一个神经网络</a></td>
+      <td align="right"><a href="../chapter-03/01-image-recognition-problem.md">3.1 图像识别问题 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -458,10 +457,9 @@ public class DeepNetworkBestPractices {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 2.4 用Deeplearning4j实现你的第一个神经网络](04-first-neural-network-dl4j.md)</span>
-
-<span>[3.1 图像识别问题 →](../chapter-03/01-image-recognition-problem.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-first-neural-network-dl4j.md">← 2.4 用Deeplearning4j实现你的第一个神经网络</a></td>
+      <td align="right"><a href="../chapter-03/01-image-recognition-problem.md">3.1 图像识别问题 →</a></td>
+   </tr>
+</table>

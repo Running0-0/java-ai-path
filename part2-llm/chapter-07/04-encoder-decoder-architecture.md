@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 7.3 位置编码：给序列注入顺序信息](03-positional-encoding.md)</span>
-
-<span>[7.5 用Java实现简化版Transformer &rarr;](05-implement-transformer-java.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-positional-encoding.md">&larr; 7.3 位置编码：给序列注入顺序信息</a></td>
+      <td align="right"><a href="05-implement-transformer-java.md">7.5 用Java实现简化版Transformer &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 7.4 编码器-解码器架构
@@ -378,10 +377,9 @@ class Linear {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 7.3 位置编码：给序列注入顺序信息](03-positional-encoding.md)</span>
-
-<span>[7.5 用Java实现简化版Transformer &rarr;](05-implement-transformer-java.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-positional-encoding.md">&larr; 7.3 位置编码：给序列注入顺序信息</a></td>
+      <td align="right"><a href="05-implement-transformer-java.md">7.5 用Java实现简化版Transformer &rarr;</a></td>
+   </tr>
+</table>

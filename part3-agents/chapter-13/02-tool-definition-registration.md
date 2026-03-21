@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 13.1 Function Calling基础](01-function-calling.md)</span>
-
-<span>[13.3 构建自定义工具 &rarr;](03-build-custom-tools.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-function-calling.md">&larr; 13.1 Function Calling基础</a></td>
+      <td align="right"><a href="03-build-custom-tools.md">13.3 构建自定义工具 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 13.2 工具定义与注册
@@ -378,10 +377,9 @@ public class VersionedToolRegistry extends ToolRegistry {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 13.1 Function Calling基础](01-function-calling.md)</span>
-
-<span>[13.3 构建自定义工具 &rarr;](03-build-custom-tools.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-function-calling.md">&larr; 13.1 Function Calling基础</a></td>
+      <td align="right"><a href="03-build-custom-tools.md">13.3 构建自定义工具 &rarr;</a></td>
+   </tr>
+</table>

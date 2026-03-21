@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 13.5 安全性与可控性](../chapter-13/05-security-controllability.md)</span>
-
-<span>[14.2 ReAct框架 &rarr;](02-react-framework.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-13/05-security-controllability.md">&larr; 13.5 安全性与可控性</a></td>
+      <td align="right"><a href="02-react-framework.md">14.2 ReAct框架 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 14.1 任务分解
@@ -304,10 +303,9 @@ public class TravelPlanningExample {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 13.5 安全性与可控性](../chapter-13/05-security-controllability.md)</span>
-
-<span>[14.2 ReAct框架 &rarr;](02-react-framework.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-13/05-security-controllability.md">&larr; 13.5 安全性与可控性</a></td>
+      <td align="right"><a href="02-react-framework.md">14.2 ReAct框架 &rarr;</a></td>
+   </tr>
+</table>

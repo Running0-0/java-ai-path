@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 9.1 开源大模型生态](01-open-source-llm-ecosystem.md)</span>
-
-<span>[9.3 LangChain4j：Java的LLM应用框架 &rarr;](03-langchain4j-framework.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-open-source-llm-ecosystem.md">&larr; 9.1 开源大模型生态</a></td>
+      <td align="right"><a href="03-langchain4j-framework.md">9.3 LangChain4j：Java的LLM应用框架 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 9.2 模型量化：让大模型变小
@@ -285,10 +284,9 @@ public class QuantizationEvaluator {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 9.1 开源大模型生态](01-open-source-llm-ecosystem.md)</span>
-
-<span>[9.3 LangChain4j：Java的LLM应用框架 &rarr;](03-langchain4j-framework.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-open-source-llm-ecosystem.md">&larr; 9.1 开源大模型生态</a></td>
+      <td align="right"><a href="03-langchain4j-framework.md">9.3 LangChain4j：Java的LLM应用框架 &rarr;</a></td>
+   </tr>
+</table>

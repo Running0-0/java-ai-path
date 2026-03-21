@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 3.4 经典CNN架构解析](04-classic-cnn-architectures.md)</span>
-
-<span>[3.6 设计思考：局部感知与参数共享 →](06-local-perception-weight-sharing.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-classic-cnn-architectures.md">← 3.4 经典CNN架构解析</a></td>
+      <td align="right"><a href="06-local-perception-weight-sharing.md">3.6 设计思考：局部感知与参数共享 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -582,10 +581,9 @@ model.fit(trainData);
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 3.4 经典CNN架构解析](04-classic-cnn-architectures.md)</span>
-
-<span>[3.6 设计思考：局部感知与参数共享 →](06-local-perception-weight-sharing.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-classic-cnn-architectures.md">← 3.4 经典CNN架构解析</a></td>
+      <td align="right"><a href="06-local-perception-weight-sharing.md">3.6 设计思考：局部感知与参数共享 →</a></td>
+   </tr>
+</table>

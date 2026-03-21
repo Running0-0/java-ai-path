@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 3.5 实战：用Java构建图像分类器](05-build-image-classifier.md)</span>
-
-<span>[4.1 序列数据的挑战 →](../chapter-04/01-sequence-data-challenge.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="05-build-image-classifier.md">← 3.5 实战：用Java构建图像分类器</a></td>
+      <td align="right"><a href="../chapter-04/01-sequence-data-challenge.md">4.1 序列数据的挑战 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -419,10 +418,9 @@ CNN的约束（局部性、共享）正好匹配图像的本质特性。
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 3.5 实战：用Java构建图像分类器](05-build-image-classifier.md)</span>
-
-<span>[4.1 序列数据的挑战 →](../chapter-04/01-sequence-data-challenge.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="05-build-image-classifier.md">← 3.5 实战：用Java构建图像分类器</a></td>
+      <td align="right"><a href="../chapter-04/01-sequence-data-challenge.md">4.1 序列数据的挑战 →</a></td>
+   </tr>
+</table>

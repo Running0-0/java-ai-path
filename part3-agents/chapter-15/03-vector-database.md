@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 15.2 对话记忆管理](02-dialog-memory-management.md)</span>
-
-<span>[15.4 构建记忆智能体 &rarr;](04-build-memory-agent.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-dialog-memory-management.md">&larr; 15.2 对话记忆管理</a></td>
+      <td align="right"><a href="04-build-memory-agent.md">15.4 构建记忆智能体 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 15.3 向量数据库
@@ -202,10 +201,9 @@ public class IndexConfiguration {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 15.2 对话记忆管理](02-dialog-memory-management.md)</span>
-
-<span>[15.4 构建记忆智能体 &rarr;](04-build-memory-agent.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-dialog-memory-management.md">&larr; 15.2 对话记忆管理</a></td>
+      <td align="right"><a href="04-build-memory-agent.md">15.4 构建记忆智能体 &rarr;</a></td>
+   </tr>
+</table>

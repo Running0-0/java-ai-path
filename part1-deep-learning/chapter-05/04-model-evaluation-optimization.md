@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 5.3 模型设计与训练](03-model-design-training.md)</span>
-
-<span>[5.5 部署与集成 →](05-deployment-integration.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-model-design-training.md">← 5.3 模型设计与训练</a></td>
+      <td align="right"><a href="05-deployment-integration.md">5.5 部署与集成 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -428,10 +427,9 @@ public class PerformanceBenchmark {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 5.3 模型设计与训练](03-model-design-training.md)</span>
-
-<span>[5.5 部署与集成 →](05-deployment-integration.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-model-design-training.md">← 5.3 模型设计与训练</a></td>
+      <td align="right"><a href="05-deployment-integration.md">5.5 部署与集成 →</a></td>
+   </tr>
+</table>

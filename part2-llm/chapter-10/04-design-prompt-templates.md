@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 10.3 结构化输出](03-structured-output.md)</span>
-
-<span>[10.5 设计思考：提示即编程 &rarr;](05-prompt-as-programming.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-structured-output.md">&larr; 10.3 结构化输出</a></td>
+      <td align="right"><a href="05-prompt-as-programming.md">10.5 设计思考：提示即编程 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 10.4 提示模板与复用
@@ -342,10 +341,9 @@ public class TemplateABTest {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 10.3 结构化输出](03-structured-output.md)</span>
-
-<span>[10.5 设计思考：提示即编程 &rarr;](05-prompt-as-programming.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-structured-output.md">&larr; 10.3 结构化输出</a></td>
+      <td align="right"><a href="05-prompt-as-programming.md">10.5 设计思考：提示即编程 &rarr;</a></td>
+   </tr>
+</table>

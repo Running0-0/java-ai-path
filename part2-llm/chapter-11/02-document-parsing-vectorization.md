@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 11.1 项目架构设计](01-project-background-architecture.md)</span>
-
-<span>[11.3 RAG检索实现 &rarr;](03-rag-implementation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-project-background-architecture.md">&larr; 11.1 项目架构设计</a></td>
+      <td align="right"><a href="03-rag-implementation.md">11.3 RAG检索实现 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 11.2 文档解析与向量化
@@ -446,10 +445,9 @@ public class VectorStorageService {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 11.1 项目架构设计](01-project-background-architecture.md)</span>
-
-<span>[11.3 RAG检索实现 &rarr;](03-rag-implementation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-project-background-architecture.md">&larr; 11.1 项目架构设计</a></td>
+      <td align="right"><a href="03-rag-implementation.md">11.3 RAG检索实现 &rarr;</a></td>
+   </tr>
+</table>

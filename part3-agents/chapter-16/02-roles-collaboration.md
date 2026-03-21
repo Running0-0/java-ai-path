@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 16.1 多智能体概述](01-multi-agent-overview.md)</span>
-
-<span>[16.3 通信协议 &rarr;](03-communication-protocol.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-multi-agent-overview.md">&larr; 16.1 多智能体概述</a></td>
+      <td align="right"><a href="03-communication-protocol.md">16.3 通信协议 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 16.2 角色与协作
@@ -290,10 +289,9 @@ public class CollaborationWorkflow {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 16.1 多智能体概述](01-multi-agent-overview.md)</span>
-
-<span>[16.3 通信协议 &rarr;](03-communication-protocol.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-multi-agent-overview.md">&larr; 16.1 多智能体概述</a></td>
+      <td align="right"><a href="03-communication-protocol.md">16.3 通信协议 &rarr;</a></td>
+   </tr>
+</table>

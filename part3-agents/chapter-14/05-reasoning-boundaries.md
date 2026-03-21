@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 14.4 构建规划智能体](04-build-planning-agent.md)</span>
-
-<span>[15.1 短期与长期记忆 &rarr;](../chapter-15/01-short-long-term-memory.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-build-planning-agent.md">&larr; 14.4 构建规划智能体</a></td>
+      <td align="right"><a href="../chapter-15/01-short-long-term-memory.md">15.1 短期与长期记忆 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 14.5 设计思考：推理边界
@@ -206,10 +205,9 @@ LLM擅长 → 人类擅长
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 14.4 构建规划智能体](04-build-planning-agent.md)</span>
-
-<span>[15.1 短期与长期记忆 &rarr;](../chapter-15/01-short-long-term-memory.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-build-planning-agent.md">&larr; 14.4 构建规划智能体</a></td>
+      <td align="right"><a href="../chapter-15/01-short-long-term-memory.md">15.1 短期与长期记忆 &rarr;</a></td>
+   </tr>
+</table>

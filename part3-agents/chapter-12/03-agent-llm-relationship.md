@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 12.2 智能体核心组件](02-core-components.md)</span>
-
-<span>[12.4 从工具使用者到创造者 &rarr;](04-tool-user-to-creator.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-core-components.md">&larr; 12.2 智能体核心组件</a></td>
+      <td align="right"><a href="04-tool-user-to-creator.md">12.4 从工具使用者到创造者 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 12.3 智能体与LLM的关系
@@ -294,10 +293,9 @@ class DataQueryHandler implements Handler {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 12.2 智能体核心组件](02-core-components.md)</span>
-
-<span>[12.4 从工具使用者到创造者 &rarr;](04-tool-user-to-creator.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-core-components.md">&larr; 12.2 智能体核心组件</a></td>
+      <td align="right"><a href="04-tool-user-to-creator.md">12.4 从工具使用者到创造者 &rarr;</a></td>
+   </tr>
+</table>

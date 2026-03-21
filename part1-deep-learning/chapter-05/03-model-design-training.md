@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 5.2 数据准备与预处理](02-data-preparation.md)</span>
-
-<span>[5.4 模型评估与优化 →](04-model-evaluation-optimization.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-data-preparation.md">← 5.2 数据准备与预处理</a></td>
+      <td align="right"><a href="04-model-evaluation-optimization.md">5.4 模型评估与优化 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -403,10 +402,9 @@ public class TrainingMain {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 5.2 数据准备与预处理](02-data-preparation.md)</span>
-
-<span>[5.4 模型评估与优化 →](04-model-evaluation-optimization.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-data-preparation.md">← 5.2 数据准备与预处理</a></td>
+      <td align="right"><a href="04-model-evaluation-optimization.md">5.4 模型评估与优化 →</a></td>
+   </tr>
+</table>

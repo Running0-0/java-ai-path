@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 10.1 提示工程基础](01-prompt-engineering-basics.md)</span>
-
-<span>[10.3 结构化输出 &rarr;](03-structured-output.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-prompt-engineering-basics.md">&larr; 10.1 提示工程基础</a></td>
+      <td align="right"><a href="03-structured-output.md">10.3 结构化输出 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 10.2 高级提示模式
@@ -310,10 +309,9 @@ public class ReActAgent {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 10.1 提示工程基础](01-prompt-engineering-basics.md)</span>
-
-<span>[10.3 结构化输出 &rarr;](03-structured-output.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-prompt-engineering-basics.md">&larr; 10.1 提示工程基础</a></td>
+      <td align="right"><a href="03-structured-output.md">10.3 结构化输出 &rarr;</a></td>
+   </tr>
+</table>

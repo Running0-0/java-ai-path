@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 17.3 工具集成](03-tool-integration.md)</span>
-
-<span>[17.5 部署与优化 &rarr;](05-deployment-optimization.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-tool-integration.md">&larr; 17.3 工具集成</a></td>
+      <td align="right"><a href="05-deployment-optimization.md">17.5 部署与优化 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 17.4 用户界面
@@ -96,10 +95,9 @@ public class AssistantController {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 17.3 工具集成](03-tool-integration.md)</span>
-
-<span>[17.5 部署与优化 &rarr;](05-deployment-optimization.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-tool-integration.md">&larr; 17.3 工具集成</a></td>
+      <td align="right"><a href="05-deployment-optimization.md">17.5 部署与优化 &rarr;</a></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 4.2 RNN的核心思想](02-rnn-memory-and-forgetting.md)</span>
-
-<span>[4.4 实战：用Java实现文本生成 →](04-text-generation-practice.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-rnn-memory-and-forgetting.md">← 4.2 RNN的核心思想</a></td>
+      <td align="right"><a href="04-text-generation-practice.md">4.4 实战：用Java实现文本生成 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -375,10 +374,9 @@ LSTM学会了选择性处理信息：
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 4.2 RNN的核心思想](02-rnn-memory-and-forgetting.md)</span>
-
-<span>[4.4 实战：用Java实现文本生成 →](04-text-generation-practice.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-rnn-memory-and-forgetting.md">← 4.2 RNN的核心思想</a></td>
+      <td align="right"><a href="04-text-generation-practice.md">4.4 实战：用Java实现文本生成 →</a></td>
+   </tr>
+</table>

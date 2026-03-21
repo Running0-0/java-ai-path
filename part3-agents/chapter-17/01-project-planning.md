@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 16.5 设计思考：群体智能](../chapter-16/05-swarm-intelligence.md)</span>
-
-<span>[17.2 核心能力实现 &rarr;](02-core-abilities.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-16/05-swarm-intelligence.md">&larr; 16.5 设计思考：群体智能</a></td>
+      <td align="right"><a href="02-core-abilities.md">17.2 核心能力实现 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 17.1 项目规划
@@ -186,10 +185,9 @@ personal-ai-assistant/
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 16.5 设计思考：群体智能](../chapter-16/05-swarm-intelligence.md)</span>
-
-<span>[17.2 核心能力实现 &rarr;](02-core-abilities.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-16/05-swarm-intelligence.md">&larr; 16.5 设计思考：群体智能</a></td>
+      <td align="right"><a href="02-core-abilities.md">17.2 核心能力实现 &rarr;</a></td>
+   </tr>
+</table>

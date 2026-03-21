@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 9.4 实战：构建本地问答系统](04-build-local-qa-system.md)</span>
-
-<span>[10.1 提示工程基础 &rarr;](../chapter-10/01-prompt-engineering-basics.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-build-local-qa-system.md">&larr; 9.4 实战：构建本地问答系统</a></td>
+      <td align="right"><a href="../chapter-10/01-prompt-engineering-basics.md">10.1 提示工程基础 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 9.5 设计思考：云端vs本地部署
@@ -306,10 +305,9 @@ public class ComplianceChecker {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 9.4 实战：构建本地问答系统](04-build-local-qa-system.md)</span>
-
-<span>[10.1 提示工程基础 &rarr;](../chapter-10/01-prompt-engineering-basics.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-build-local-qa-system.md">&larr; 9.4 实战：构建本地问答系统</a></td>
+      <td align="right"><a href="../chapter-10/01-prompt-engineering-basics.md">10.1 提示工程基础 &rarr;</a></td>
+   </tr>
+</table>

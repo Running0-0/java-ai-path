@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 16.2 角色与协作](02-roles-collaboration.md)</span>
-
-<span>[16.4 实战：构建虚拟开发团队 &rarr;](04-build-dev-team.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-roles-collaboration.md">&larr; 16.2 角色与协作</a></td>
+      <td align="right"><a href="04-build-dev-team.md">16.4 实战：构建虚拟开发团队 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 16.3 通信协议
@@ -256,10 +255,9 @@ public class PubSubProtocol {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 16.2 角色与协作](02-roles-collaboration.md)</span>
-
-<span>[16.4 实战：构建虚拟开发团队 &rarr;](04-build-dev-team.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-roles-collaboration.md">&larr; 16.2 角色与协作</a></td>
+      <td align="right"><a href="04-build-dev-team.md">16.4 实战：构建虚拟开发团队 &rarr;</a></td>
+   </tr>
+</table>

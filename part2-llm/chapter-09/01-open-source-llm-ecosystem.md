@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 8.5 设计思考：生成式与理解式模型](../chapter-08/05-generation-vs-understanding.md)</span>
-
-<span>[9.2 模型量化：让大模型变小 &rarr;](02-model-quantization.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-08/05-generation-vs-understanding.md">&larr; 8.5 设计思考：生成式与理解式模型</a></td>
+      <td align="right"><a href="02-model-quantization.md">9.2 模型量化：让大模型变小 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 9.1 开源大模型生态
@@ -296,10 +295,9 @@ public class QuantizedModelLoader {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 8.5 设计思考：生成式与理解式模型](../chapter-08/05-generation-vs-understanding.md)</span>
-
-<span>[9.2 模型量化：让大模型变小 &rarr;](02-model-quantization.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-08/05-generation-vs-understanding.md">&larr; 8.5 设计思考：生成式与理解式模型</a></td>
+      <td align="right"><a href="02-model-quantization.md">9.2 模型量化：让大模型变小 &rarr;</a></td>
+   </tr>
+</table>

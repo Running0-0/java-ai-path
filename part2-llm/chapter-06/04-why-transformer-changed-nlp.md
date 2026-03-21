@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 6.3 Transformer架构：注意力机制的革命](03-transformer-architecture.md)</span>
-
-<span>[7.1 自注意力机制：让词与词对话 &rarr;](../chapter-07/01-self-attention.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-transformer-architecture.md">&larr; 6.3 Transformer架构：注意力机制的革命</a></td>
+      <td align="right"><a href="../chapter-07/01-self-attention.md">7.1 自注意力机制：让词与词对话 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 6.4 设计思考：为什么Transformer改变了NLP
@@ -168,10 +167,9 @@ Transformer不仅是技术的进步，更是思维方式的转变——从顺序
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 6.3 Transformer架构：注意力机制的革命](03-transformer-architecture.md)</span>
-
-<span>[7.1 自注意力机制：让词与词对话 &rarr;](../chapter-07/01-self-attention.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-transformer-architecture.md">&larr; 6.3 Transformer架构：注意力机制的革命</a></td>
+      <td align="right"><a href="../chapter-07/01-self-attention.md">7.1 自注意力机制：让词与词对话 &rarr;</a></td>
+   </tr>
+</table>

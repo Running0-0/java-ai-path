@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 7.4 编码器-解码器架构](04-encoder-decoder-architecture.md)</span>
-
-<span>[8.1 GPT系列：生成式预训练模型 &rarr;](../chapter-08/01-gpt-series.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-encoder-decoder-architecture.md">&larr; 7.4 编码器-解码器架构</a></td>
+      <td align="right"><a href="../chapter-08/01-gpt-series.md">8.1 GPT系列：生成式预训练模型 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 7.5 用Java实现简化版Transformer
@@ -452,10 +451,9 @@ public class OptimizationTips {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 7.4 编码器-解码器架构](04-encoder-decoder-architecture.md)</span>
-
-<span>[8.1 GPT系列：生成式预训练模型 &rarr;](../chapter-08/01-gpt-series.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-encoder-decoder-architecture.md">&larr; 7.4 编码器-解码器架构</a></td>
+      <td align="right"><a href="../chapter-08/01-gpt-series.md">8.1 GPT系列：生成式预训练模型 &rarr;</a></td>
+   </tr>
+</table>

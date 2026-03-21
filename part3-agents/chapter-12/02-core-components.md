@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 12.1 智能体概念与架构](01-what-is-agent.md)</span>
-
-<span>[12.3 智能体与LLM的关系 &rarr;](03-agent-llm-relationship.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-what-is-agent.md">&larr; 12.1 智能体概念与架构</a></td>
+      <td align="right"><a href="03-agent-llm-relationship.md">12.3 智能体与LLM的关系 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 12.2 智能体核心组件
@@ -421,10 +420,9 @@ public class ActionExecutor {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 12.1 智能体概念与架构](01-what-is-agent.md)</span>
-
-<span>[12.3 智能体与LLM的关系 &rarr;](03-agent-llm-relationship.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-what-is-agent.md">&larr; 12.1 智能体概念与架构</a></td>
+      <td align="right"><a href="03-agent-llm-relationship.md">12.3 智能体与LLM的关系 &rarr;</a></td>
+   </tr>
+</table>

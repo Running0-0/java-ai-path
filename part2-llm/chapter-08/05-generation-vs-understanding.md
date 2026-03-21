@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 8.4 实战：调用OpenAI API](04-openai-api-practice.md)</span>
-
-<span>[9.1 开源大模型生态 &rarr;](../chapter-09/01-open-source-llm-ecosystem.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-openai-api-practice.md">&larr; 8.4 实战：调用OpenAI API</a></td>
+      <td align="right"><a href="../chapter-09/01-open-source-llm-ecosystem.md">9.1 开源大模型生态 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 8.5 设计思考：生成式与理解式模型
@@ -285,10 +284,9 @@ GPT-4已经展现出：
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 8.4 实战：调用OpenAI API](04-openai-api-practice.md)</span>
-
-<span>[9.1 开源大模型生态 &rarr;](../chapter-09/01-open-source-llm-ecosystem.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-openai-api-practice.md">&larr; 8.4 实战：调用OpenAI API</a></td>
+      <td align="right"><a href="../chapter-09/01-open-source-llm-ecosystem.md">9.1 开源大模型生态 &rarr;</a></td>
+   </tr>
+</table>

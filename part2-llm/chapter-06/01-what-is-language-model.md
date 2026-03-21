@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 5.5 部署与集成](../../part1-deep-learning/chapter-05/05-deployment-integration.md)</span>
-
-<span>[6.2 从N-gram到Word2Vec →](02-ngram-to-word2vec.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../../part1-deep-learning/chapter-05/05-deployment-integration.md">← 5.5 部署与集成</a></td>
+      <td align="right"><a href="02-ngram-to-word2vec.md">6.2 从N-gram到Word2Vec →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -279,10 +278,9 @@ PPL = ∞: 完全随机
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 5.5 部署与集成](../../part1-deep-learning/chapter-05/05-deployment-integration.md)</span>
-
-<span>[6.2 从N-gram到Word2Vec →](02-ngram-to-word2vec.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../../part1-deep-learning/chapter-05/05-deployment-integration.md">← 5.5 部署与集成</a></td>
+      <td align="right"><a href="02-ngram-to-word2vec.md">6.2 从N-gram到Word2Vec →</a></td>
+   </tr>
+</table>

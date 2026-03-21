@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 11.5 部署与优化](../../part2-llm/chapter-11/05-optimization-deployment.md)</span>
-
-<span>[12.2 智能体核心组件 &rarr;](02-core-components.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../../part2-llm/chapter-11/05-optimization-deployment.md">&larr; 11.5 部署与优化</a></td>
+      <td align="right"><a href="02-core-components.md">12.2 智能体核心组件 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 12.1 智能体概念与架构
@@ -301,10 +300,9 @@ public class ReActAgent implements Agent {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 11.5 部署与优化](../../part2-llm/chapter-11/05-optimization-deployment.md)</span>
-
-<span>[12.2 智能体核心组件 &rarr;](02-core-components.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../../part2-llm/chapter-11/05-optimization-deployment.md">&larr; 11.5 部署与优化</a></td>
+      <td align="right"><a href="02-core-components.md">12.2 智能体核心组件 &rarr;</a></td>
+   </tr>
+</table>

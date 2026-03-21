@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 3.6 设计思考：局部感知与参数共享](../chapter-03/06-local-perception-weight-sharing.md)</span>
-
-<span>[4.2 RNN的核心思想 →](02-rnn-memory-and-forgetting.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-03/06-local-perception-weight-sharing.md">← 3.6 设计思考：局部感知与参数共享</a></td>
+      <td align="right"><a href="02-rnn-memory-and-forgetting.md">4.2 RNN的核心思想 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -360,10 +359,9 @@ RNN：动态过程 f(x, h) = (y, h')
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 3.6 设计思考：局部感知与参数共享](../chapter-03/06-local-perception-weight-sharing.md)</span>
-
-<span>[4.2 RNN的核心思想 →](02-rnn-memory-and-forgetting.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-03/06-local-perception-weight-sharing.md">← 3.6 设计思考：局部感知与参数共享</a></td>
+      <td align="right"><a href="02-rnn-memory-and-forgetting.md">4.2 RNN的核心思想 →</a></td>
+   </tr>
+</table>

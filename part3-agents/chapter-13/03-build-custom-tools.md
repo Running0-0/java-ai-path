@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 13.2 工具定义与注册](02-tool-definition-registration.md)</span>
-
-<span>[13.4 数据库工具 &rarr;](04-database-tools.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-tool-definition-registration.md">&larr; 13.2 工具定义与注册</a></td>
+      <td align="right"><a href="04-database-tools.md">13.4 数据库工具 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 13.3 构建自定义工具
@@ -362,10 +361,9 @@ public class ToolChain {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 13.2 工具定义与注册](02-tool-definition-registration.md)</span>
-
-<span>[13.4 数据库工具 &rarr;](04-database-tools.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-tool-definition-registration.md">&larr; 13.2 工具定义与注册</a></td>
+      <td align="right"><a href="04-database-tools.md">13.4 数据库工具 &rarr;</a></td>
+   </tr>
+</table>

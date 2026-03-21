@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 1.1 为什么Java程序员需要学习AI](01-why-java-ai.md)</span>
-
-<span>[1.3 搭建你的第一个AI开发环境 →](03-first-ai-environment.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-why-java-ai.md">← 1.1 为什么Java程序员需要学习AI</a></td>
+      <td align="right"><a href="03-first-ai-environment.md">1.3 搭建你的第一个AI开发环境 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -414,10 +413,9 @@ public class SimpleNeuron {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 1.1 为什么Java程序员需要学习AI](01-why-java-ai.md)</span>
-
-<span>[1.3 搭建你的第一个AI开发环境 →](03-first-ai-environment.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-why-java-ai.md">← 1.1 为什么Java程序员需要学习AI</a></td>
+      <td align="right"><a href="03-first-ai-environment.md">1.3 搭建你的第一个AI开发环境 →</a></td>
+   </tr>
+</table>

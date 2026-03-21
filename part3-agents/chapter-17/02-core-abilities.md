@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 17.1 项目规划](01-project-planning.md)</span>
-
-<span>[17.3 工具集成 &rarr;](03-tool-integration.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-project-planning.md">&larr; 17.1 项目规划</a></td>
+      <td align="right"><a href="03-tool-integration.md">17.3 工具集成 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 17.2 核心能力实现
@@ -173,10 +172,9 @@ public class ToolManager {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 17.1 项目规划](01-project-planning.md)</span>
-
-<span>[17.3 工具集成 &rarr;](03-tool-integration.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-project-planning.md">&larr; 17.1 项目规划</a></td>
+      <td align="right"><a href="03-tool-integration.md">17.3 工具集成 &rarr;</a></td>
+   </tr>
+</table>

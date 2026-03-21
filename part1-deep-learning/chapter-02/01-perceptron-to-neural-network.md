@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 1.4 Java AI生态全景图](../chapter-01/04-java-ai-ecosystem.md)</span>
-
-<span>[2.2 前向传播 →](02-forward-propagation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-01/04-java-ai-ecosystem.md">← 1.4 Java AI生态全景图</a></td>
+      <td align="right"><a href="02-forward-propagation.md">2.2 前向传播 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -456,10 +455,9 @@ OR逻辑学习结果：
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 1.4 Java AI生态全景图](../chapter-01/04-java-ai-ecosystem.md)</span>
-
-<span>[2.2 前向传播 →](02-forward-propagation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-01/04-java-ai-ecosystem.md">← 1.4 Java AI生态全景图</a></td>
+      <td align="right"><a href="02-forward-propagation.md">2.2 前向传播 →</a></td>
+   </tr>
+</table>

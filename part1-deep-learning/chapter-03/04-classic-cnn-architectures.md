@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 3.3 池化与全连接](03-pooling-and-fully-connected.md)</span>
-
-<span>[3.5 实战：用Java构建图像分类器 →](05-build-image-classifier.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-pooling-and-fully-connected.md">← 3.3 池化与全连接</a></td>
+      <td align="right"><a href="05-build-image-classifier.md">3.5 实战：用Java构建图像分类器 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -461,10 +460,9 @@ public class PretrainedModelDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 3.3 池化与全连接](03-pooling-and-fully-connected.md)</span>
-
-<span>[3.5 实战：用Java构建图像分类器 →](05-build-image-classifier.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-pooling-and-fully-connected.md">← 3.3 池化与全连接</a></td>
+      <td align="right"><a href="05-build-image-classifier.md">3.5 实战：用Java构建图像分类器 →</a></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 8.2 BERT：双向编码器表示](02-bert-model.md)</span>
-
-<span>[8.4 实战：调用OpenAI API &rarr;](04-openai-api-practice.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-bert-model.md">&larr; 8.2 BERT：双向编码器表示</a></td>
+      <td align="right"><a href="04-openai-api-practice.md">8.4 实战：调用OpenAI API &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 8.3 预训练与微调范式
@@ -380,10 +379,9 @@ public class FineTuningBestPractices {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 8.2 BERT：双向编码器表示](02-bert-model.md)</span>
-
-<span>[8.4 实战：调用OpenAI API &rarr;](04-openai-api-practice.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="02-bert-model.md">&larr; 8.2 BERT：双向编码器表示</a></td>
+      <td align="right"><a href="04-openai-api-practice.md">8.4 实战：调用OpenAI API &rarr;</a></td>
+   </tr>
+</table>

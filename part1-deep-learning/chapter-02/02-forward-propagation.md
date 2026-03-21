@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 2.1 从感知机到神经网络](01-perceptron-to-neural-network.md)</span>
-
-<span>[2.3 反向传播 →](03-backpropagation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-perceptron-to-neural-network.md">← 2.1 从感知机到神经网络</a></td>
+      <td align="right"><a href="03-backpropagation.md">2.3 反向传播 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -548,10 +547,9 @@ a = f(z)           （非线性激活）
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 2.1 从感知机到神经网络](01-perceptron-to-neural-network.md)</span>
-
-<span>[2.3 反向传播 →](03-backpropagation.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-perceptron-to-neural-network.md">← 2.1 从感知机到神经网络</a></td>
+      <td align="right"><a href="03-backpropagation.md">2.3 反向传播 →</a></td>
+   </tr>
+</table>

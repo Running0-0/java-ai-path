@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 10.5 设计思考：提示即编程](../chapter-10/05-prompt-as-programming.md)</span>
-
-<span>[11.2 文档解析与向量化 &rarr;](02-document-parsing-vectorization.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-10/05-prompt-as-programming.md">&larr; 10.5 设计思考：提示即编程</a></td>
+      <td align="right"><a href="02-document-parsing-vectorization.md">11.2 文档解析与向量化 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 11.1 项目架构设计
@@ -363,10 +362,9 @@ volumes:
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 10.5 设计思考：提示即编程](../chapter-10/05-prompt-as-programming.md)</span>
-
-<span>[11.2 文档解析与向量化 &rarr;](02-document-parsing-vectorization.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-10/05-prompt-as-programming.md">&larr; 10.5 设计思考：提示即编程</a></td>
+      <td align="right"><a href="02-document-parsing-vectorization.md">11.2 文档解析与向量化 &rarr;</a></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 4.3 LSTM与GRU](03-lstm-and-gru.md)</span>
-
-<span>[4.5 设计思考：时序建模的本质 →](05-design-thinking-sequential-modeling.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-lstm-and-gru.md">← 4.3 LSTM与GRU</a></td>
+      <td align="right"><a href="05-design-thinking-sequential-modeling.md">4.5 设计思考：时序建模的本质 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -543,10 +542,9 @@ for (int batch = 0; batch < numBatches; batch++) {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 4.3 LSTM与GRU](03-lstm-and-gru.md)</span>
-
-<span>[4.5 设计思考：时序建模的本质 →](05-design-thinking-sequential-modeling.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-lstm-and-gru.md">← 4.3 LSTM与GRU</a></td>
+      <td align="right"><a href="05-design-thinking-sequential-modeling.md">4.5 设计思考：时序建模的本质 →</a></td>
+   </tr>
+</table>

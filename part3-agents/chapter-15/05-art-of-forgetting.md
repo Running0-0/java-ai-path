@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 15.4 构建记忆智能体](04-build-memory-agent.md)</span>
-
-<span>[16.1 多智能体概述 &rarr;](../chapter-16/01-multi-agent-overview.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-build-memory-agent.md">&larr; 15.4 构建记忆智能体</a></td>
+      <td align="right"><a href="../chapter-16/01-multi-agent-overview.md">16.1 多智能体概述 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 15.5 设计思考：遗忘的艺术
@@ -186,10 +185,9 @@ public class PrivacyAwareForgetting {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 15.4 构建记忆智能体](04-build-memory-agent.md)</span>
-
-<span>[16.1 多智能体概述 &rarr;](../chapter-16/01-multi-agent-overview.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="04-build-memory-agent.md">&larr; 15.4 构建记忆智能体</a></td>
+      <td align="right"><a href="../chapter-16/01-multi-agent-overview.md">16.1 多智能体概述 &rarr;</a></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 14.5 设计思考：推理边界](../chapter-14/05-reasoning-boundaries.md)</span>
-
-<span>[15.2 对话记忆管理 &rarr;](02-dialog-memory-management.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-14/05-reasoning-boundaries.md">&larr; 14.5 设计思考：推理边界</a></td>
+      <td align="right"><a href="02-dialog-memory-management.md">15.2 对话记忆管理 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 15.1 短期与长期记忆
@@ -259,10 +258,9 @@ public class MemoryEncoder {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 14.5 设计思考：推理边界](../chapter-14/05-reasoning-boundaries.md)</span>
-
-<span>[15.2 对话记忆管理 &rarr;](02-dialog-memory-management.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="../chapter-14/05-reasoning-boundaries.md">&larr; 14.5 设计思考：推理边界</a></td>
+      <td align="right"><a href="02-dialog-memory-management.md">15.2 对话记忆管理 &rarr;</a></td>
+   </tr>
+</table>

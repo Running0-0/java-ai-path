@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[← 3.1 图像识别问题](01-image-recognition-problem.md)</span>
-
-<span>[3.3 池化与全连接 →](03-pooling-and-fully-connected.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-image-recognition-problem.md">← 3.1 图像识别问题</a></td>
+      <td align="right"><a href="03-pooling-and-fully-connected.md">3.3 池化与全连接 →</a></td>
+   </tr>
+</table>
 
 ---
 
@@ -573,10 +572,9 @@ public class EdgeDetectionDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[← 3.1 图像识别问题](01-image-recognition-problem.md)</span>
-
-<span>[3.3 池化与全连接 →](03-pooling-and-fully-connected.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="01-image-recognition-problem.md">← 3.1 图像识别问题</a></td>
+      <td align="right"><a href="03-pooling-and-fully-connected.md">3.3 池化与全连接 →</a></td>
+   </tr>
+</table>

@@ -1,10 +1,9 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-
-<span>[&larr; 15.3 向量数据库](03-vector-database.md)</span>
-
-<span>[15.5 设计思考：遗忘的艺术 &rarr;](05-art-of-forgetting.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-vector-database.md">&larr; 15.3 向量数据库</a></td>
+      <td align="right"><a href="05-art-of-forgetting.md">15.5 设计思考：遗忘的艺术 &rarr;</a></td>
+   </tr>
+</table>
 ---
 
 # 15.4 构建记忆智能体
@@ -188,10 +187,9 @@ public class PersonalAssistantDemo {
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-
-<span>[&larr; 15.3 向量数据库](03-vector-database.md)</span>
-
-<span>[15.5 设计思考：遗忘的艺术 &rarr;](05-art-of-forgetting.md)</span>
-
-</div>
+<table width="100%">
+   <tr>
+      <td align="left"><a href="03-vector-database.md">&larr; 15.3 向量数据库</a></td>
+      <td align="right"><a href="05-art-of-forgetting.md">15.5 设计思考：遗忘的艺术 &rarr;</a></td>
+   </tr>
+</table>
