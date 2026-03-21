@@ -21,7 +21,7 @@
 2014: GoogLeNet    → Inception模块
 2015: ResNet       → 残差连接，突破深度限制
 2017: MobileNet    → 轻量化，移动端部署
-2020: Vision Transformer → CNN与Transformer融合
+2020: Vision Transformer → 将图像切成Patch后交给Transformer建模
 ```
 
 ## LeNet-5：CNN的鼻祖
@@ -286,22 +286,24 @@ public class AlexNet {
 
 ### 残差块
 
+下面用简化示意代码说明残差块的核心思想。这里重点是“两层卷积 + 跳跃连接”，不是某个框架可以直接运行的完整实现。
+
 ```java
 /**
  * 残差块实现
  */
 public class ResidualBlock {
     
-    private DenseLayer conv1;
-    private DenseLayer conv2;
+    private Conv2d conv1;
+    private Conv2d conv2;
     
     /**
      * 前向传播
      */
-    public INDArray forward(INDArray x) {
-        INDArray identity = x.dup();  // 保存输入（跳跃连接）
+    public Tensor forward(Tensor x) {
+        Tensor identity = x;
         
-        INDArray out = conv1.forward(x);
+        Tensor out = conv1.forward(x);
         out = batchNorm(out);
         out = relu(out);
         

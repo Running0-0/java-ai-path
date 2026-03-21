@@ -15,13 +15,15 @@
 
 ### 提供的模型
 
-| 模型 | 用途 | 特点 |
+| 类型 | 用途 | 说明 |
 |------|------|------|
-| GPT-4 | 文本生成 | 最强能力，支持多模态 |
-| GPT-3.5 | 文本生成 | 性价比高，速度快 |
-| DALL-E | 图像生成 | 文本生成图像 |
-| Whisper | 语音转文字 | 多语言支持 |
-| Embeddings | 文本嵌入 | 语义相似度计算 |
+| Chat Model | 对话、摘要、代码生成 | 适合大多数聊天与助手场景 |
+| Reasoning Model | 复杂推理、规划 | 成本更高，延迟通常也更高 |
+| Embedding Model | 文本向量化 | 用于检索、RAG、相似度计算 |
+| Whisper | 语音转文字 | 适合音频转录 |
+| Image Model | 图像生成/编辑 | 适合多模态创作场景 |
+
+> 模型名称和价格更新很快。实际项目中不要把模型名和单价硬编码在代码里，而是通过配置注入，并定期对照官方文档更新。
 
 ### 获取API密钥
 
@@ -68,7 +70,11 @@ package com.example.openai;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import okhttp3.*;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -79,11 +85,11 @@ import java.util.concurrent.TimeUnit;
 public class OpenAIClient {
     
     private static final String BASE_URL = "https://api.openai.com/v1";
-    private static final MediaType JSON = MediaType.get("application/json");
+    private static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
     
-    private final String apiKey;
     private final OkHttpClient httpClient;
     private final Gson gson;
+    private final String apiKey;
     
     public OpenAIClient(String apiKey) {
         this.apiKey = apiKey;
@@ -95,10 +101,10 @@ public class OpenAIClient {
     }
     
     /**
-     * 发送请求
+     * 发送JSON请求并返回JSON响应
      */
-    private String post(String endpoint, String json) throws IOException {
-        RequestBody body = RequestBody.create(json, JSON);
+    public JsonObject post(String endpoint, JsonObject payload) throws IOException {
+        RequestBody body = RequestBody.create(payload.toString(), JSON);
         
         Request request = new Request.Builder()
             .url(BASE_URL + endpoint)
@@ -111,7 +117,8 @@ public class OpenAIClient {
             if (!response.isSuccessful()) {
                 throw new IOException("Unexpected code: " + response);
             }
-            return response.body().string();
+            String responseBody = response.body().string();
+            return gson.fromJson(responseBody, JsonObject.class);
         }
     }
 }
@@ -122,56 +129,61 @@ public class OpenAIClient {
 ### 基础调用
 
 ```java
+package com.example.openai;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
+import java.io.IOException;
+import java.util.List;
+
 /**
  * 聊天完成API
  */
 public class ChatCompletion {
     
     private final OpenAIClient client;
+    private final String chatModel;
     
-    public ChatCompletion(OpenAIClient client) {
+    public ChatCompletion(OpenAIClient client, String chatModel) {
         this.client = client;
+        this.chatModel = chatModel;
     }
     
     /**
      * 简单对话
      */
     public String chat(String message) throws IOException {
-        JsonObject request = new JsonObject();
-        request.addProperty("model", "gpt-3.5-turbo");
-        
-        JsonObject userMessage = new JsonObject();
-        userMessage.addProperty("role", "user");
-        userMessage.addProperty("content", message);
-        
-        request.add("messages", gson.toJsonTree(
-            new JsonObject[]{userMessage}));
-        
-        String response = client.post("/chat/completions", 
-            request.toString());
-        
-        return parseResponse(response);
+        return chat(List.of(new Message("user", message)));
     }
     
     /**
      * 多轮对话
      */
     public String chat(List<Message> messages) throws IOException {
-        JsonObject request = new JsonObject();
-        request.addProperty("model", "gpt-3.5-turbo");
-        request.add("messages", gson.toJsonTree(messages));
-        request.addProperty("temperature", 0.7);
-        request.addProperty("max_tokens", 500);
-        
-        String response = client.post("/chat/completions",
-            request.toString());
-        
-        return parseResponse(response);
+        return chat(messages, 0.7, 500);
     }
-    
-    private String parseResponse(String json) {
-        JsonObject obj = gson.fromJson(json, JsonObject.class);
-        return obj.getAsJsonArray("choices")
+
+    public String chat(List<Message> messages,
+                       double temperature,
+                       int maxTokens) throws IOException {
+        JsonObject request = new JsonObject();
+        request.addProperty("model", chatModel);
+
+        JsonArray jsonMessages = new JsonArray();
+        for (Message message : messages) {
+            JsonObject item = new JsonObject();
+            item.addProperty("role", message.role());
+            item.addProperty("content", message.content());
+            jsonMessages.add(item);
+        }
+
+        request.add("messages", jsonMessages);
+        request.addProperty("temperature", temperature);
+        request.addProperty("max_tokens", maxTokens);
+        
+        JsonObject response = client.post("/chat/completions", request);
+        return response.getAsJsonArray("choices")
             .get(0).getAsJsonObject()
             .getAsJsonObject("message")
             .get("content").getAsString();
@@ -181,65 +193,36 @@ public class ChatCompletion {
 /**
  * 消息类
  */
-class Message {
-    String role;    // "system", "user", "assistant"
-    String content;
-    
-    public Message(String role, String content) {
-        this.role = role;
-        this.content = content;
-    }
-}
+public record Message(String role, String content) {}
 ```
 
 ### 高级参数
 
 ```java
+package com.example.openai;
+
+import java.io.IOException;
+import java.util.List;
+
 /**
  * 高级调用示例
  */
 public class AdvancedChat {
+
+    private final ChatCompletion chat;
+
+    public AdvancedChat(ChatCompletion chat) {
+        this.chat = chat;
+    }
     
     public String generateWithParameters(String prompt) 
             throws IOException {
-        
-        JsonObject request = new JsonObject();
-        request.addProperty("model", "gpt-4");
-        
-        // 消息
-        JsonArray messages = new JsonArray();
-        
-        // 系统消息：设定角色和行为
-        JsonObject systemMsg = new JsonObject();
-        systemMsg.addProperty("role", "system");
-        systemMsg.addProperty("content", 
-            "你是一个专业的Java程序员，擅长解释技术概念。");
-        messages.add(systemMsg);
-        
-        // 用户消息
-        JsonObject userMsg = new JsonObject();
-        userMsg.addProperty("role", "user");
-        userMsg.addProperty("content", prompt);
-        messages.add(userMsg);
-        
-        request.add("messages", messages);
-        
-        // 温度：控制随机性 (0-2)
-        request.addProperty("temperature", 0.7);
-        
-        // 最大token数
-        request.addProperty("max_tokens", 1000);
-        
-        // Top-p采样
-        request.addProperty("top_p", 0.9);
-        
-        // 频率惩罚：减少重复
-        request.addProperty("frequency_penalty", 0.5);
-        
-        // 存在惩罚：鼓励多样性
-        request.addProperty("presence_penalty", 0.5);
-        
-        return client.post("/chat/completions", request.toString());
+        List<Message> messages = List.of(
+            new Message("system", "你是一个专业的Java程序员，擅长解释技术概念。"),
+            new Message("user", prompt)
+        );
+
+        return chat.chat(messages, 0.7, 1000);
     }
 }
 ```
@@ -249,18 +232,27 @@ public class AdvancedChat {
 ### 代码助手
 
 ```java
+package com.example.openai;
+
+import java.io.IOException;
+import java.util.List;
+
 /**
  * AI代码助手
  */
 public class AICodeAssistant {
     
     private final ChatCompletion chat;
+
+    public AICodeAssistant(ChatCompletion chat) {
+        this.chat = chat;
+    }
     
     /**
      * 解释代码
      */
     public String explainCode(String code) throws IOException {
-        List<Message> messages = Arrays.asList(
+        List<Message> messages = List.of(
             new Message("system", 
                 "你是一个Java专家，用简洁的语言解释代码。"),
             new Message("user", 
@@ -274,7 +266,7 @@ public class AICodeAssistant {
      * 生成代码
      */
     public String generateCode(String description) throws IOException {
-        List<Message> messages = Arrays.asList(
+        List<Message> messages = List.of(
             new Message("system", 
                 "你是一个Java程序员，生成高质量、带注释的代码。"),
             new Message("user", description)
@@ -287,7 +279,7 @@ public class AICodeAssistant {
      * 重构建议
      */
     public String refactorSuggestion(String code) throws IOException {
-        List<Message> messages = Arrays.asList(
+        List<Message> messages = List.of(
             new Message("system", 
                 "你是一个代码审查专家，提供重构建议。"),
             new Message("user", 
@@ -302,18 +294,27 @@ public class AICodeAssistant {
 ### 文本处理工具
 
 ```java
+package com.example.openai;
+
+import java.io.IOException;
+import java.util.List;
+
 /**
  * 文本处理工具
  */
 public class TextProcessor {
     
     private final ChatCompletion chat;
+
+    public TextProcessor(ChatCompletion chat) {
+        this.chat = chat;
+    }
     
     /**
      * 文本摘要
      */
     public String summarize(String text) throws IOException {
-        return chat.chat(Arrays.asList(
+        return chat.chat(List.of(
             new Message("user", 
                 "请用一段话总结以下内容：\n" + text)
         ));
@@ -323,7 +324,7 @@ public class TextProcessor {
      * 情感分析
      */
     public String sentiment(String text) throws IOException {
-        return chat.chat(Arrays.asList(
+        return chat.chat(List.of(
             new Message("user", 
                 "判断以下文本的情感（正面/负面/中性）：\n" + text)
         ));
@@ -334,7 +335,7 @@ public class TextProcessor {
      */
     public String translate(String text, String targetLang) 
             throws IOException {
-        return chat.chat(Arrays.asList(
+        return chat.chat(List.of(
             new Message("user", 
                 "将以下内容翻译成" + targetLang + "：\n" + text)
         ));
@@ -347,6 +348,11 @@ public class TextProcessor {
 ### 异常处理
 
 ```java
+package com.example.openai;
+
+import java.io.IOException;
+import java.util.List;
+
 /**
  * 健壮的错误处理
  */
@@ -354,6 +360,11 @@ public class RobustOpenAIClient {
     
     private static final int MAX_RETRIES = 3;
     private static final long RETRY_DELAY = 1000;
+    private final ChatCompletion chat;
+
+    public RobustOpenAIClient(ChatCompletion chat) {
+        this.chat = chat;
+    }
     
     public String chatWithRetry(List<Message> messages) {
         int retries = 0;
@@ -385,26 +396,33 @@ public class RobustOpenAIClient {
 
 ### 成本控制
 
+价格经常调整，下面演示的是“如何做预算控制”，不是一份长期有效的价目表。生产环境里建议把单价放到配置中心，并定期和官方定价页面同步。
+
 ```java
+package com.example.openai;
+
+import java.util.Map;
+
 /**
  * API调用成本控制
  */
 public class CostController {
     
-    // Token价格（每1K tokens）
-    private static final Map<String, Double> PRICES = Map.of(
-        "gpt-3.5-turbo", 0.002,
-        "gpt-4", 0.03
-    );
-    
+    private final Map<String, Double> pricesPer1KTokens;
     private double totalCost = 0;
-    private double costLimit = 10.0; // 美元
+    private final double costLimit;
+
+    public CostController(Map<String, Double> pricesPer1KTokens,
+                          double costLimit) {
+        this.pricesPer1KTokens = pricesPer1KTokens;
+        this.costLimit = costLimit;
+    }
     
     /**
      * 检查是否超出预算
      */
     public boolean canMakeRequest(String model, int estimatedTokens) {
-        double price = PRICES.getOrDefault(model, 0.002);
+        double price = pricesPer1KTokens.getOrDefault(model, 0.0);
         double estimatedCost = (estimatedTokens / 1000.0) * price;
         
         return (totalCost + estimatedCost) < costLimit;
@@ -414,7 +432,7 @@ public class CostController {
      * 记录实际消耗
      */
     public void recordUsage(String model, int tokens) {
-        double price = PRICES.getOrDefault(model, 0.002);
+        double price = pricesPer1KTokens.getOrDefault(model, 0.0);
         totalCost += (tokens / 1000.0) * price;
     }
 }

@@ -62,28 +62,34 @@ LangChain4j核心组件：
 
 ```xml
 <!-- pom.xml -->
+<properties>
+    <langchain4j.version>0.24.0</langchain4j.version>
+</properties>
+
 <dependencies>
     <dependency>
         <groupId>dev.langchain4j</groupId>
         <artifactId>langchain4j</artifactId>
-        <version>0.24.0</version>
+        <version>${langchain4j.version}</version>
     </dependency>
     
     <!-- OpenAI支持 -->
     <dependency>
         <groupId>dev.langchain4j</groupId>
         <artifactId>langchain4j-open-ai</artifactId>
-        <version>0.24.0</version>
+        <version>${langchain4j.version}</version>
     </dependency>
     
     <!-- 本地模型支持 -->
     <dependency>
         <groupId>dev.langchain4j</groupId>
         <artifactId>langchain4j-ollama</artifactId>
-        <version>0.24.0</version>
+        <version>${langchain4j.version}</version>
     </dependency>
 </dependencies>
 ```
+
+> LangChain4j 版本迭代较快。示例重点是讲 Builder、AiServices、Memory、RAG 的使用方式；真正落地时请把版本号替换成官方最新稳定版，并按对应文档调整 API。
 
 ### 基础使用
 
@@ -103,9 +109,11 @@ public class BasicExample {
      * 使用OpenAI
      */
     public void useOpenAI() {
+        String modelName = System.getenv().getOrDefault("OPENAI_MODEL", "gpt-4o-mini");
+
         ChatLanguageModel model = OpenAiChatModel.builder()
             .apiKey(System.getenv("OPENAI_API_KEY"))
-            .modelName("gpt-3.5-turbo")
+            .modelName(modelName)
             .temperature(0.7)
             .build();
         
@@ -117,9 +125,11 @@ public class BasicExample {
      * 使用本地模型（Ollama）
      */
     public void useLocalModel() {
+        String modelName = System.getenv().getOrDefault("OLLAMA_MODEL", "qwen2.5:7b");
+
         ChatLanguageModel model = OllamaChatModel.builder()
             .baseUrl("http://localhost:11434")
-            .modelName("llama2")
+            .modelName(modelName)
             .temperature(0.7)
             .build();
         
@@ -153,6 +163,12 @@ interface Assistant {
 }
 
 public class ConversationExample {
+
+    private final ChatLanguageModel chatModel;
+
+    public ConversationExample(ChatLanguageModel chatModel) {
+        this.chatModel = chatModel;
+    }
     
     public void createAssistant() {
         // 创建记忆（保留最近10条消息）
@@ -162,7 +178,7 @@ public class ConversationExample {
         
         // 创建助手
         Assistant assistant = AiServices.builder(Assistant.class)
-            .chatLanguageModel(model)
+            .chatLanguageModel(chatModel)
             .chatMemory(chatMemory)
             .build();
         
@@ -178,19 +194,60 @@ public class ConversationExample {
 ### 持久化记忆
 
 ```java
+package com.example.langchain4j;
+
+import dev.langchain4j.data.message.ChatMessage;
+import dev.langchain4j.memory.ChatMemory;
+import dev.langchain4j.memory.chat.MessageWindowChatMemory;
+import dev.langchain4j.store.memory.chat.ChatMemoryStore;
+
+import javax.sql.DataSource;
+import java.util.List;
+
 /**
- * 长期记忆
+ * 持久化记忆的最小骨架
  */
+public class JdbcChatMemoryStore implements ChatMemoryStore {
+
+    private final DataSource dataSource;
+
+    public JdbcChatMemoryStore(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
+
+    @Override
+    public List<ChatMessage> getMessages(Object memoryId) {
+        // 这里省略JDBC查询细节，实际项目中从数据库加载历史消息
+        return List.of();
+    }
+
+    @Override
+    public void updateMessages(Object memoryId, List<ChatMessage> messages) {
+        // 这里省略JDBC写入细节，实际项目中把消息持久化到数据库
+    }
+
+    @Override
+    public void deleteMessages(Object memoryId) {
+        // 这里省略删除逻辑
+    }
+}
+
 public class PersistentMemory {
+
+    private final DataSource dataSource;
+
+    public PersistentMemory(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
     
     /**
      * 使用数据库存储对话历史
      */
     public ChatMemory createPersistentMemory(String userId) {
-        return PersistentChatMemory.builder()
-            .userId(userId)
-            .storage(new JdbcChatMemoryStore(dataSource))
+        return MessageWindowChatMemory.builder()
+            .id(userId)
             .maxMessages(100)
+            .chatMemoryStore(new JdbcChatMemoryStore(dataSource))
             .build();
     }
 }
@@ -204,6 +261,7 @@ public class PersistentMemory {
 package com.example.langchain4j;
 
 import dev.langchain4j.agent.tool.Tool;
+import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.service.AiServices;
 
 import java.time.LocalDateTime;
@@ -211,7 +269,17 @@ import java.time.LocalDateTime;
 /**
  * 工具定义
  */
+interface WeatherService {
+    String query(String city);
+}
+
 class Tools {
+
+    private final WeatherService weatherService;
+
+    Tools(WeatherService weatherService) {
+        this.weatherService = weatherService;
+    }
     
     @Tool("获取当前日期时间")
     public String getCurrentDateTime() {
@@ -225,8 +293,7 @@ class Tools {
     
     @Tool("查询天气")
     public String getWeather(String city) {
-        // 调用天气API
-        return weatherApi.query(city);
+        return weatherService.query(city);
     }
 }
 
@@ -238,11 +305,20 @@ interface ToolUsingAssistant {
 }
 
 public class ToolExample {
+
+    private final ChatLanguageModel chatModel;
+    private final WeatherService weatherService;
+
+    public ToolExample(ChatLanguageModel chatModel,
+                       WeatherService weatherService) {
+        this.chatModel = chatModel;
+        this.weatherService = weatherService;
+    }
     
     public void createToolAssistant() {
         ToolUsingAssistant assistant = AiServices.builder(ToolUsingAssistant.class)
-            .chatLanguageModel(model)
-            .tools(new Tools())
+            .chatLanguageModel(chatModel)
+            .tools(new Tools(weatherService))
             .build();
         
         // LLM会自动决定何时使用工具
@@ -260,10 +336,12 @@ public class ToolExample {
 package com.example.langchain4j;
 
 import dev.langchain4j.data.document.Document;
+import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.data.document.loader.FileSystemDocumentLoader;
 import dev.langchain4j.data.document.parser.TextDocumentParser;
 import dev.langchain4j.data.document.splitter.DocumentSplitters;
 import dev.langchain4j.data.segment.TextSegment;
+import dev.langchain4j.model.embedding.EmbeddingModel;
 import dev.langchain4j.store.embedding.EmbeddingStore;
 import dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore;
 
@@ -300,7 +378,7 @@ public class DocumentProcessing {
         EmbeddingStore<TextSegment> store = new InMemoryEmbeddingStore<>();
         
         for (TextSegment segment : segments) {
-            Embedding embedding = embeddingModel.embed(segment);
+            Embedding embedding = embeddingModel.embed(segment).content();
             store.add(embedding, segment);
         }
         
@@ -312,6 +390,19 @@ public class DocumentProcessing {
 ### RAG实现
 
 ```java
+package com.example.langchain4j;
+
+import dev.langchain4j.data.segment.TextSegment;
+import dev.langchain4j.model.chat.ChatLanguageModel;
+import dev.langchain4j.model.embedding.EmbeddingModel;
+import dev.langchain4j.rag.content.retriever.ContentRetriever;
+import dev.langchain4j.rag.content.retriever.EmbeddingStoreContentRetriever;
+import dev.langchain4j.service.AiServices;
+import dev.langchain4j.service.SystemMessage;
+import dev.langchain4j.store.embedding.EmbeddingStore;
+
+import java.util.List;
+
 /**
  * RAG助手
  */
@@ -325,6 +416,18 @@ interface RAGAssistant {
 }
 
 public class RAGExample {
+
+    private final DocumentProcessing documentProcessing;
+    private final EmbeddingModel embeddingModel;
+    private final ChatLanguageModel chatModel;
+
+    public RAGExample(DocumentProcessing documentProcessing,
+                      EmbeddingModel embeddingModel,
+                      ChatLanguageModel chatModel) {
+        this.documentProcessing = documentProcessing;
+        this.embeddingModel = embeddingModel;
+        this.chatModel = chatModel;
+    }
     
     public void createRAGAssistant() {
         // 1. 加载文档
