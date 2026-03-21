@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 16.5 设计思考：群体智能](../chapter-16/05-swarm-intelligence.md)</span>
+
+<span>[17.2 核心能力实现 &rarr;](02-core-abilities.md)</span>
+
+</div>
+---
+
 # 17.1 项目规划
 
 > "构建你的个人AI助手——从想法到实现的完整指南。"
@@ -174,3 +183,13 @@ personal-ai-assistant/
 1. 根据你的需求调整功能规划
 2. 设计项目的配置管理方案
 3. 规划项目的测试策略。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 16.5 设计思考：群体智能](../chapter-16/05-swarm-intelligence.md)</span>
+
+<span>[17.2 核心能力实现 &rarr;](02-core-abilities.md)</span>
+
+</div>

@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 13.5 安全性与可控性](../chapter-13/05-security-controllability.md)</span>
+
+<span>[14.2 ReAct框架 &rarr;](02-react-framework.md)</span>
+
+</div>
+---
+
 # 14.1 任务分解
 
 > "复杂任务简单化——分解是智能体解决复杂问题的核心能力。"
@@ -292,3 +301,13 @@ public class TravelPlanningExample {
 1. 设计一个代码审查任务的分解方案
 2. 实现一个支持依赖关系的任务执行器
 3. 如何评估任务分解的质量？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 13.5 安全性与可控性](../chapter-13/05-security-controllability.md)</span>
+
+<span>[14.2 ReAct框架 &rarr;](02-react-framework.md)</span>
+
+</div>

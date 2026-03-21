@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 17.2 核心能力实现](02-core-abilities.md)</span>
+
+<span>[17.4 用户界面 &rarr;](04-user-interface.md)</span>
+
+</div>
+---
+
 # 17.3 工具集成
 
 > "工具让AI助手从对话走向行动——从说得到做得到。"
@@ -166,3 +175,13 @@ public class ToolConfiguration {
 1. 添加更多实用工具（如日历、提醒）
 2. 实现工具的组合调用
 3. 设计工具的错误恢复机制。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 17.2 核心能力实现](02-core-abilities.md)</span>
+
+<span>[17.4 用户界面 &rarr;](04-user-interface.md)</span>
+
+</div>

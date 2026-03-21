@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 16.3 通信协议](03-communication-protocol.md)</span>
+
+<span>[16.5 设计思考：群体智能 &rarr;](05-swarm-intelligence.md)</span>
+
+</div>
+---
+
 # 16.4 实战：构建虚拟开发团队
 
 > "一个完全由AI组成的软件开发团队——从需求到代码，从测试到部署。"
@@ -171,3 +180,13 @@ public class TeamDemo {
 1. 扩展团队支持代码审查环节
 2. 设计团队性能评估机制
 3. 如何实现团队的知识共享？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 16.3 通信协议](03-communication-protocol.md)</span>
+
+<span>[16.5 设计思考：群体智能 &rarr;](05-swarm-intelligence.md)</span>
+
+</div>

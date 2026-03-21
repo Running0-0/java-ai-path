@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 11.5 部署与优化](../../part2-llm/chapter-11/05-optimization-deployment.md)</span>
+
+<span>[12.2 智能体核心组件 &rarr;](02-core-components.md)</span>
+
+</div>
+---
+
 # 12.1 智能体概念与架构
 
 > "智能体是AI的下一个进化——从回答问题到自主行动，从工具到伙伴。"
@@ -289,3 +298,13 @@ public class ReActAgent implements Agent {
 1. 智能体与传统软件的核心区别是什么？
 2. ReAct架构的优势是什么？
 3. 设计一个基于目标的智能体应用场景。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 11.5 部署与优化](../../part2-llm/chapter-11/05-optimization-deployment.md)</span>
+
+<span>[12.2 智能体核心组件 &rarr;](02-core-components.md)</span>
+
+</div>

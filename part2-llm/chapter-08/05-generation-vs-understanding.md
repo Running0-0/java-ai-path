@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 8.4 实战：调用OpenAI API](04-openai-api-practice.md)</span>
+
+<span>[9.1 开源大模型生态 &rarr;](../chapter-09/01-open-source-llm-ecosystem.md)</span>
+
+</div>
+---
+
 # 8.5 设计思考：生成式与理解式模型
 
 > "生成与理解是AI的两大能力——理解是思考，生成是表达。"
@@ -273,3 +282,13 @@ GPT-4已经展现出：
 1. 你的项目中哪些任务适合理解式模型，哪些适合生成式？
 2. 如何设计一个同时使用两类模型的系统？
 3. 未来统一模型会取代专门的模型吗？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 8.4 实战：调用OpenAI API](04-openai-api-practice.md)</span>
+
+<span>[9.1 开源大模型生态 &rarr;](../chapter-09/01-open-source-llm-ecosystem.md)</span>
+
+</div>

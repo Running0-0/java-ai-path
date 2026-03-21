@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 7.3 位置编码：给序列注入顺序信息](03-positional-encoding.md)</span>
+
+<span>[7.5 用Java实现简化版Transformer &rarr;](05-implement-transformer-java.md)</span>
+
+</div>
+---
+
 # 7.4 编码器-解码器架构
 
 > "编码器理解输入，解码器生成输出——Transformer的完整形态。"
@@ -366,3 +375,13 @@ class Linear {
 1. 编码器和解码器的主要区别是什么？
 2. 为什么解码器需要掩码自注意力？
 3. 什么时候选择Encoder-only，什么时候选择Decoder-only？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 7.3 位置编码：给序列注入顺序信息](03-positional-encoding.md)</span>
+
+<span>[7.5 用Java实现简化版Transformer &rarr;](05-implement-transformer-java.md)</span>
+
+</div>

@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 15.4 构建记忆智能体](04-build-memory-agent.md)</span>
+
+<span>[16.1 多智能体概述 &rarr;](../chapter-16/01-multi-agent-overview.md)</span>
+
+</div>
+---
+
 # 15.5 设计思考：遗忘的艺术
 
 > "遗忘不是缺陷，而是智慧——学会遗忘，才能记住真正重要的。"
@@ -174,3 +183,13 @@ public class PrivacyAwareForgetting {
 1. 设计一个综合遗忘策略
 2. 如何平衡遗忘和记忆的需求？
 3. 遗忘对智能体学习有什么影响？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 15.4 构建记忆智能体](04-build-memory-agent.md)</span>
+
+<span>[16.1 多智能体概述 &rarr;](../chapter-16/01-multi-agent-overview.md)</span>
+
+</div>

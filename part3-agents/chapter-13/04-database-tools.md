@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 13.3 构建自定义工具](03-build-custom-tools.md)</span>
+
+<span>[13.5 安全性与可控性 &rarr;](05-security-controllability.md)</span>
+
+</div>
+---
+
 # 13.4 数据库工具
 
 > "让智能体能够查询和操作数据库——连接AI能力与企业数据。"
@@ -338,3 +347,13 @@ public class DatabaseAssistantDemo {
 1. 实现一个支持分页的数据库查询工具
 2. 如何防止SQL注入攻击？
 3. 设计数据库工具的访问控制策略。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 13.3 构建自定义工具](03-build-custom-tools.md)</span>
+
+<span>[13.5 安全性与可控性 &rarr;](05-security-controllability.md)</span>
+
+</div>

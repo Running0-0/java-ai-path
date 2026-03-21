@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 10.5 设计思考：提示即编程](../chapter-10/05-prompt-as-programming.md)</span>
+
+<span>[11.2 文档解析与向量化 &rarr;](02-document-parsing-vectorization.md)</span>
+
+</div>
+---
+
 # 11.1 项目架构设计
 
 > "好的架构是项目成功的一半——让我们设计一个可扩展的RAG系统。"
@@ -351,3 +360,13 @@ volumes:
 1. 为什么RAG系统需要分层架构？
 2. 向量数据库选型要考虑哪些因素？
 3. 设计一个支持多租户的RAG架构。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 10.5 设计思考：提示即编程](../chapter-10/05-prompt-as-programming.md)</span>
+
+<span>[11.2 文档解析与向量化 &rarr;](02-document-parsing-vectorization.md)</span>
+
+</div>

@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 9.3 LangChain4j：Java的LLM应用框架](03-langchain4j-framework.md)</span>
+
+<span>[9.5 设计思考：云端vs本地部署 &rarr;](05-cloud-vs-local-deployment.md)</span>
+
+</div>
+---
+
 # 9.4 实战：构建本地问答系统
 
 > "一个完全本地运行的问答系统——保护隐私，无需联网，随时可用。"
@@ -363,3 +372,13 @@ public class OptimizationTips {
 1. 如何优化向量检索的速度？
 2. 如何支持PDF等格式的文档？
 3. 设计一个增量更新知识库的方案。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 9.3 LangChain4j：Java的LLM应用框架](03-langchain4j-framework.md)</span>
+
+<span>[9.5 设计思考：云端vs本地部署 &rarr;](05-cloud-vs-local-deployment.md)</span>
+
+</div>

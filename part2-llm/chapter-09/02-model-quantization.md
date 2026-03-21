@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 9.1 开源大模型生态](01-open-source-llm-ecosystem.md)</span>
+
+<span>[9.3 LangChain4j：Java的LLM应用框架 &rarr;](03-langchain4j-framework.md)</span>
+
+</div>
+---
+
 # 9.2 模型量化：让大模型变小
 
 > "量化是模型工程的魔法——用少量精度损失换取巨大的效率提升。"
@@ -273,3 +282,13 @@ public class QuantizationEvaluator {
 1. 量化为什么能减少模型大小？
 2. PTQ和QAT各有什么优缺点？
 3. 在你的机器上尝试量化一个模型。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 9.1 开源大模型生态](01-open-source-llm-ecosystem.md)</span>
+
+<span>[9.3 LangChain4j：Java的LLM应用框架 &rarr;](03-langchain4j-framework.md)</span>
+
+</div>

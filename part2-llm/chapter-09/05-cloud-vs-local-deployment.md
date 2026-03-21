@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 9.4 实战：构建本地问答系统](04-build-local-qa-system.md)</span>
+
+<span>[10.1 提示工程基础 &rarr;](../chapter-10/01-prompt-engineering-basics.md)</span>
+
+</div>
+---
+
 # 9.5 设计思考：云端vs本地部署
 
 > "云端还是本地？这不是二选一的问题，而是根据场景做最优选择。"
@@ -294,3 +303,13 @@ public class ComplianceChecker {
 1. 你的应用场景适合云端还是本地部署？
 2. 如何设计一个自动切换的混合部署系统？
 3. 数据合规对部署方式有什么影响？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 9.4 实战：构建本地问答系统](04-build-local-qa-system.md)</span>
+
+<span>[10.1 提示工程基础 &rarr;](../chapter-10/01-prompt-engineering-basics.md)</span>
+
+</div>

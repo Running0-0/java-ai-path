@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 15.1 短期与长期记忆](01-short-long-term-memory.md)</span>
+
+<span>[15.3 向量数据库 &rarr;](03-vector-database.md)</span>
+
+</div>
+---
+
 # 15.2 对话记忆管理
 
 > "对话记忆让智能体记得你们聊过什么——从陌生人到老朋友。"
@@ -249,3 +258,13 @@ public class PersistentChatMemory {
 1. 实现一个混合策略的记忆管理器
 2. 如何评估记忆压缩的质量？
 3. 设计支持多话题的记忆系统。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 15.1 短期与长期记忆](01-short-long-term-memory.md)</span>
+
+<span>[15.3 向量数据库 &rarr;](03-vector-database.md)</span>
+
+</div>

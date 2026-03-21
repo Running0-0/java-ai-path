@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 9.5 设计思考：云端vs本地部署](../chapter-09/05-cloud-vs-local-deployment.md)</span>
+
+<span>[10.2 高级提示模式 &rarr;](02-prompt-patterns.md)</span>
+
+</div>
+---
+
 # 10.1 提示工程基础
 
 > "提示工程是与AI对话的艺术——同样的模型，不同的提示，截然不同的结果。"
@@ -290,3 +299,13 @@ Unchecked Exception的区别，
 1. 为"解释RESTful API"设计三个不同角色的提示
 2. 用Few-shot方法设计一个文本分类提示
 3. 分析一个你写过的提示，找出改进点。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 9.5 设计思考：云端vs本地部署](../chapter-09/05-cloud-vs-local-deployment.md)</span>
+
+<span>[10.2 高级提示模式 &rarr;](02-prompt-patterns.md)</span>
+
+</div>

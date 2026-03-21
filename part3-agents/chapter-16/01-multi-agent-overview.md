@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 15.5 设计思考：遗忘的艺术](../chapter-15/05-art-of-forgetting.md)</span>
+
+<span>[16.2 角色与协作 &rarr;](02-roles-collaboration.md)</span>
+
+</div>
+---
+
 # 16.1 多智能体概述
 
 > "单个智能体有极限，多个智能体创造无限可能——协作是智能的倍增器。"
@@ -267,3 +276,13 @@ class MessageBus {
 1. 设计一个客服多智能体系统
 2. 比较不同架构模式的优缺点
 3. 如何实现智能体间的负载均衡？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 15.5 设计思考：遗忘的艺术](../chapter-15/05-art-of-forgetting.md)</span>
+
+<span>[16.2 角色与协作 &rarr;](02-roles-collaboration.md)</span>
+
+</div>

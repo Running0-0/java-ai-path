@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 15.2 对话记忆管理](02-dialog-memory-management.md)</span>
+
+<span>[15.4 构建记忆智能体 &rarr;](04-build-memory-agent.md)</span>
+
+</div>
+---
+
 # 15.3 向量数据库
 
 > "向量数据库是智能体的长期记忆——语义存储，相似检索。"
@@ -190,3 +199,13 @@ public class IndexConfiguration {
 1. 比较不同ANN算法的优缺点
 2. 如何评估向量检索的质量？
 3. 设计一个混合索引策略。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 15.2 对话记忆管理](02-dialog-memory-management.md)</span>
+
+<span>[15.4 构建记忆智能体 &rarr;](04-build-memory-agent.md)</span>
+
+</div>

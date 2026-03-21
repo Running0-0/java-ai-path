@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 13.4 数据库工具](04-database-tools.md)</span>
+
+<span>[14.1 任务分解 &rarr;](../chapter-14/01-task-decomposition.md)</span>
+
+</div>
+---
+
 # 13.5 安全性与可控性
 
 > "智能体的安全是底线——能力越强，责任越大。"
@@ -328,3 +337,13 @@ public class AuditService {
 1. 设计一个完整的工具安全框架
 2. 如何实现代码执行的完全隔离？
 3. 设计智能
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 13.4 数据库工具](04-database-tools.md)</span>
+
+<span>[14.1 任务分解 &rarr;](../chapter-14/01-task-decomposition.md)</span>
+
+</div>

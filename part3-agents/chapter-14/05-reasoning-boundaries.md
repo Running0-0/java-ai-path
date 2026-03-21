@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 14.4 构建规划智能体](04-build-planning-agent.md)</span>
+
+<span>[15.1 短期与长期记忆 &rarr;](../chapter-15/01-short-long-term-memory.md)</span>
+
+</div>
+---
+
 # 14.5 设计思考：推理边界
 
 > "了解智能体能做什么、不能做什么——理性认识AI的能力边界。"
@@ -194,3 +203,13 @@ LLM擅长 → 人类擅长
 1. 你的应用场景中，哪些任务需要工具辅助？
 2. 如何设计人机协作的工作流程？
 3. AI推理能力的提升会带来什么影响？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 14.4 构建规划智能体](04-build-planning-agent.md)</span>
+
+<span>[15.1 短期与长期记忆 &rarr;](../chapter-15/01-short-long-term-memory.md)</span>
+
+</div>

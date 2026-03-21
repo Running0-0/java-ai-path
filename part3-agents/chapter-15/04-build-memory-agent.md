@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 15.3 向量数据库](03-vector-database.md)</span>
+
+<span>[15.5 设计思考：遗忘的艺术 &rarr;](05-art-of-forgetting.md)</span>
+
+</div>
+---
+
 # 15.4 构建记忆智能体
 
 > "一个拥有完整记忆系统的智能体——从工作记忆到长期知识。"
@@ -176,3 +185,13 @@ public class PersonalAssistantDemo {
 1. 设计一个记忆重要性评分算法
 2. 如何实现记忆的隐私控制？
 3. 设计跨设备的记忆同步方案。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 15.3 向量数据库](03-vector-database.md)</span>
+
+<span>[15.5 设计思考：遗忘的艺术 &rarr;](05-art-of-forgetting.md)</span>
+
+</div>

@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 11.1 项目架构设计](01-project-background-architecture.md)</span>
+
+<span>[11.3 RAG检索实现 &rarr;](03-rag-implementation.md)</span>
+
+</div>
+---
+
 # 11.2 文档解析与向量化
 
 > "文档解析是RAG的第一步——Garbage in, garbage out，好的输入才有好的输出。"
@@ -434,3 +443,13 @@ public class VectorStorageService {
 1. 如何处理扫描版PDF（图片）？
 2. 文档分割的chunk size如何选择？
 3. 设计一个支持增量更新的文档处理流程。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 11.1 项目架构设计](01-project-background-architecture.md)</span>
+
+<span>[11.3 RAG检索实现 &rarr;](03-rag-implementation.md)</span>
+
+</div>

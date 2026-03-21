@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 10.3 结构化输出](03-structured-output.md)</span>
+
+<span>[10.5 设计思考：提示即编程 &rarr;](05-prompt-as-programming.md)</span>
+
+</div>
+---
+
 # 10.4 提示模板与复用
 
 > "提示模板让提示工程工业化——可维护、可复用、可版本控制。"
@@ -330,3 +339,13 @@ public class TemplateABTest {
 1. 为你的项目设计3个常用提示模板
 2. 实现一个带条件渲染的模板
 3. 设计模板版本管理方案。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 10.3 结构化输出](03-structured-output.md)</span>
+
+<span>[10.5 设计思考：提示即编程 &rarr;](05-prompt-as-programming.md)</span>
+
+</div>

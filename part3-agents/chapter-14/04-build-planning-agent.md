@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 14.3 思维链与思维树](03-chain-tree-of-thought.md)</span>
+
+<span>[14.5 设计思考：推理边界 &rarr;](05-reasoning-boundaries.md)</span>
+
+</div>
+---
+
 # 14.4 构建规划智能体
 
 > "规划是智能体的核心能力——从目标到行动，从想法到实现。"
@@ -276,3 +285,13 @@ public class ProjectPlanningAssistant {
 1. 设计一个学习计划生成智能体
 2. 实现支持并行任务的规划器
 3. 设计规划质量的评估指标。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 14.3 思维链与思维树](03-chain-tree-of-thought.md)</span>
+
+<span>[14.5 设计思考：推理边界 &rarr;](05-reasoning-boundaries.md)</span>
+
+</div>

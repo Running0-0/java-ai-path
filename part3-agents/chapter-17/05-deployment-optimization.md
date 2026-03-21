@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 17.4 用户界面](04-user-interface.md)</span>
+
+<span></span>
+
+</div>
+---
+
 # 17.5 部署与优化
 
 > "从开发到生产——让你的AI助手稳定运行。"
@@ -113,3 +122,13 @@ public class AssistantMetrics {
 从深度学习基础到大语言模型，再到智能体开发，你已经掌握了构建AI应用的完整技能栈。
 
 现在，开始构建你自己的AI应用吧！
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 17.4 用户界面](04-user-interface.md)</span>
+
+<span></span>
+
+</div>

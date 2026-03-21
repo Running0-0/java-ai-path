@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 12.4 从工具使用者到创造者](../chapter-12/04-tool-user-to-creator.md)</span>
+
+<span>[13.2 工具定义与注册 &rarr;](02-tool-definition-registration.md)</span>
+
+</div>
+---
+
 # 13.1 Function Calling基础
 
 > "Function Calling是智能体的基石——让LLM从说话到行动。"
@@ -313,4 +322,14 @@ public class WellDesignedFunctions {
         查询数据库，执行SELECT语句。
         
         注意：
-        - 
+        -
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 12.4 从工具使用者到创造者](../chapter-12/04-tool-user-to-creator.md)</span>
+
+<span>[13.2 工具定义与注册 &rarr;](02-tool-definition-registration.md)</span>
+
+</div>

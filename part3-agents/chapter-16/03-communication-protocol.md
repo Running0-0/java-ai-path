@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 16.2 角色与协作](02-roles-collaboration.md)</span>
+
+<span>[16.4 实战：构建虚拟开发团队 &rarr;](04-build-dev-team.md)</span>
+
+</div>
+---
+
 # 16.3 通信协议
 
 > "有效的通信是协作的基础——智能体之间需要共同的语言。"
@@ -244,3 +253,13 @@ public class PubSubProtocol {
 1. 设计一个支持加密的消息协议
 2. 实现可靠消息传输机制
 3. 设计智能体发现协议。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 16.2 角色与协作](02-roles-collaboration.md)</span>
+
+<span>[16.4 实战：构建虚拟开发团队 &rarr;](04-build-dev-team.md)</span>
+
+</div>

@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 10.2 高级提示模式](02-prompt-patterns.md)</span>
+
+<span>[10.4 提示模板与复用 &rarr;](04-design-prompt-templates.md)</span>
+
+</div>
+---
+
 # 10.3 结构化输出
 
 > "让AI输出结构化数据——从自由文本到JSON、XML，让程序能直接使用。"
@@ -361,3 +370,13 @@ public class OutputValidator {
 1. 设计一个提取商品信息的JSON schema
 2. 实现一个带验证的结构化输出流程
 3. 处理模型返回无效JSON的情况。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 10.2 高级提示模式](02-prompt-patterns.md)</span>
+
+<span>[10.4 提示模板与复用 &rarr;](04-design-prompt-templates.md)</span>
+
+</div>

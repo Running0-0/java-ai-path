@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 10.1 提示工程基础](01-prompt-engineering-basics.md)</span>
+
+<span>[10.3 结构化输出 &rarr;](03-structured-output.md)</span>
+
+</div>
+---
+
 # 10.2 高级提示模式
 
 > "掌握提示模式，就像掌握设计模式——让你能优雅地解决复杂问题。"
@@ -298,3 +307,13 @@ public class ReActAgent {
 1. 用CoT模式解决一个复杂的逻辑问题
 2. 实现一个简单的ReAct代理
 3. 设计一个需要多步推理的提示。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 10.1 提示工程基础](01-prompt-engineering-basics.md)</span>
+
+<span>[10.3 结构化输出 &rarr;](03-structured-output.md)</span>
+
+</div>

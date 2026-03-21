@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 14.5 设计思考：推理边界](../chapter-14/05-reasoning-boundaries.md)</span>
+
+<span>[15.2 对话记忆管理 &rarr;](02-dialog-memory-management.md)</span>
+
+</div>
+---
+
 # 15.1 短期与长期记忆
 
 > "记忆是智能体的灵魂——没有记忆，智能体只是无状态的函数调用。"
@@ -247,3 +256,13 @@ public class MemoryEncoder {
 1. 设计一个记忆重要性评估算法
 2. 如何实现记忆的遗忘机制？
 3. 设计跨会话的记忆同步方案。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 14.5 设计思考：推理边界](../chapter-14/05-reasoning-boundaries.md)</span>
+
+<span>[15.2 对话记忆管理 &rarr;](02-dialog-memory-management.md)</span>
+
+</div>

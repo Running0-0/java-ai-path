@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 12.1 智能体概念与架构](01-what-is-agent.md)</span>
+
+<span>[12.3 智能体与LLM的关系 &rarr;](03-agent-llm-relationship.md)</span>
+
+</div>
+---
+
 # 12.2 智能体核心组件
 
 > "智能体的能力来自于组件的协同——每个组件都是关键的一环。"
@@ -409,3 +418,13 @@ public class ActionExecutor {
 1. 为什么智能体需要分层记忆系统？
 2. 工具系统如何扩展智能体的能力？
 3. 设计一个支持动态规划调整的智能体。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 12.1 智能体概念与架构](01-what-is-agent.md)</span>
+
+<span>[12.3 智能体与LLM的关系 &rarr;](03-agent-llm-relationship.md)</span>
+
+</div>

@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 17.1 项目规划](01-project-planning.md)</span>
+
+<span>[17.3 工具集成 &rarr;](03-tool-integration.md)</span>
+
+</div>
+---
+
 # 17.2 核心能力实现
 
 > "核心能力是AI助手的灵魂——对话、记忆、工具的有机融合。"
@@ -161,3 +170,13 @@ public class ToolManager {
 1. 优化对话引擎的响应速度
 2. 实现记忆的自动总结功能
 3. 添加更多实用工具。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 17.1 项目规划](01-project-planning.md)</span>
+
+<span>[17.3 工具集成 &rarr;](03-tool-integration.md)</span>
+
+</div>

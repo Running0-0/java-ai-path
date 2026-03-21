@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 11.3 RAG检索实现](03-rag-implementation.md)</span>
+
+<span>[11.5 部署与优化 &rarr;](05-optimization-deployment.md)</span>
+
+</div>
+---
+
 # 11.4 对话系统实现
 
 > "对话是RAG的终极形态——不是一次性问答，而是持续的智能交互。"
@@ -363,3 +372,13 @@ public class StreamingConversationService {
 1. 如何处理超长对话历史？
 2. 设计一个支持多轮澄清的问答系统
 3. 实现对话上下文的智能压缩。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 11.3 RAG检索实现](03-rag-implementation.md)</span>
+
+<span>[11.5 部署与优化 &rarr;](05-optimization-deployment.md)</span>
+
+</div>

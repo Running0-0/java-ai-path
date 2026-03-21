@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 16.4 实战：构建虚拟开发团队](04-build-dev-team.md)</span>
+
+<span>[17.1 项目规划 &rarr;](../chapter-17/01-project-planning.md)</span>
+
+</div>
+---
+
 # 16.5 设计思考：群体智能
 
 > "群体智能是自然界最伟大的发明——从蚂蚁到人类，协作创造智慧。"
@@ -145,3 +154,13 @@ public class ParticleSwarmOptimization {
 1. 群体智能适合什么类型的应用场景？
 2. 如何设计群体智能的激励机制？
 3. 群体智能有哪些潜在风险？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 16.4 实战：构建虚拟开发团队](04-build-dev-team.md)</span>
+
+<span>[17.1 项目规划 &rarr;](../chapter-17/01-project-planning.md)</span>
+
+</div>

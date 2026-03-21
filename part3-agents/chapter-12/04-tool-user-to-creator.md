@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 12.3 智能体与LLM的关系](03-agent-llm-relationship.md)</span>
+
+<span>[13.1 Function Calling基础 &rarr;](../chapter-13/01-function-calling.md)</span>
+
+</div>
+---
+
 # 12.4 从工具使用者到创造者
 
 > "智能体的终极进化——不仅能使用工具，还能创造工具。"
@@ -334,3 +343,13 @@ public class AutoToolCreationDemo {
 1. 设计一个自动创建数据库查询工具的系统
 2. 如何实现工具的安全验证？
 3. 工具创造者的局限和风险是什么？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 12.3 智能体与LLM的关系](03-agent-llm-relationship.md)</span>
+
+<span>[13.1 Function Calling基础 &rarr;](../chapter-13/01-function-calling.md)</span>
+
+</div>

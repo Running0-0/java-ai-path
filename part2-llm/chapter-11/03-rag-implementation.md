@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 11.2 文档解析与向量化](02-document-parsing-vectorization.md)</span>
+
+<span>[11.4 对话系统实现 &rarr;](04-conversation-system.md)</span>
+
+</div>
+---
+
 # 11.3 RAG检索实现
 
 > "检索是RAG的核心——找到最相关的信息，才能生成最准确的答案。"
@@ -372,3 +381,13 @@ public class RetrievalCache {
 1. 如何评估检索质量？
 2. 混合检索如何平衡向量检索和关键词检索？
 3. 设计一个支持多语言的检索系统。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 11.2 文档解析与向量化](02-document-parsing-vectorization.md)</span>
+
+<span>[11.4 对话系统实现 &rarr;](04-conversation-system.md)</span>
+
+</div>

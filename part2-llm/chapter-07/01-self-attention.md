@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 6.4 设计思考：为什么Transformer改变了NLP](../chapter-06/04-why-transformer-changed-nlp.md)</span>
+
+<span>[7.2 多头注意力：并行捕捉多种关系 &rarr;](02-multi-head-attention.md)</span>
+
+</div>
+---
+
 # 7.1 自注意力机制：让词与词对话
 
 > "自注意力是Transformer的灵魂——它让序列中的每个元素都能与所有其他元素直接交流。"
@@ -349,3 +358,13 @@ Attention(Q,K,V) = softmax(QK^T / √d_k) V
 1. 为什么Query、Key、Value要用不同的投影矩阵？
 2. 掩码自注意力为什么能保证因果性？
 3. 如何优化自注意力的计算复杂度？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 6.4 设计思考：为什么Transformer改变了NLP](../chapter-06/04-why-transformer-changed-nlp.md)</span>
+
+<span>[7.2 多头注意力：并行捕捉多种关系 &rarr;](02-multi-head-attention.md)</span>
+
+</div>

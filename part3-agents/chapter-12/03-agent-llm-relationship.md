@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 12.2 智能体核心组件](02-core-components.md)</span>
+
+<span>[12.4 从工具使用者到创造者 &rarr;](04-tool-user-to-creator.md)</span>
+
+</div>
+---
+
 # 12.3 智能体与LLM的关系
 
 > "LLM是智能体的大脑，但智能体远不止LLM——它是完整的行动系统。"
@@ -282,3 +291,13 @@ class DataQueryHandler implements Handler {
 1. 你的应用场景更适合纯LLM还是智能体？
 2. 分层架构相比LLM控制器有什么优势？
 3. 设计一个混合架构的智能体系统。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 12.2 智能体核心组件](02-core-components.md)</span>
+
+<span>[12.4 从工具使用者到创造者 &rarr;](04-tool-user-to-creator.md)</span>
+
+</div>

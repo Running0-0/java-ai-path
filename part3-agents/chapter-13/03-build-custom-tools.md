@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 13.2 工具定义与注册](02-tool-definition-registration.md)</span>
+
+<span>[13.4 数据库工具 &rarr;](04-database-tools.md)</span>
+
+</div>
+---
+
 # 13.3 构建自定义工具
 
 > "工具决定智能体的能力边界——构建好工具，就是扩展智能体的能力。"
@@ -350,3 +359,13 @@ public class ToolChain {
 1. 实现一个安全的Shell命令执行工具
 2. 为HTTP工具添加认证支持
 3. 设计一个工具链来完成多步骤数据处理。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 13.2 工具定义与注册](02-tool-definition-registration.md)</span>
+
+<span>[13.4 数据库工具 &rarr;](04-database-tools.md)</span>
+
+</div>

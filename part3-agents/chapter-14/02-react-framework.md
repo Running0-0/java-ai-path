@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 14.1 任务分解](01-task-decomposition.md)</span>
+
+<span>[14.3 思维链与思维树 &rarr;](03-chain-tree-of-thought.md)</span>
+
+</div>
+---
+
 # 14.2 ReAct框架
 
 > "ReAct = Reasoning + Acting，让智能体既能思考又能行动。"
@@ -282,3 +291,13 @@ ReAct是智能体的经典架构，简单有效，适合大多数场景。
 1. 实现一个支持多工具并行调用的ReAct变体
 2. 设计ReAct的错误恢复机制
 3. 比较ReAct和直接调用工具的效果差异。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 14.1 任务分解](01-task-decomposition.md)</span>
+
+<span>[14.3 思维链与思维树 &rarr;](03-chain-tree-of-thought.md)</span>
+
+</div>

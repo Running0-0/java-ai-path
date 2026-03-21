@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 7.1 自注意力机制：让词与词对话](01-self-attention.md)</span>
+
+<span>[7.3 位置编码：给序列注入顺序信息 &rarr;](03-positional-encoding.md)</span>
+
+</div>
+---
+
 # 7.2 多头注意力：并行捕捉多种关系
 
 > "多头注意力让模型同时关注不同的信息维度——就像多人从不同角度观察同一事物。"
@@ -265,3 +274,13 @@ public class MultiHeadAttentionOptimization {
 1. 为什么d_head通常设置为64？
 2. 多头注意力相比单头有哪些优势？
 3. 如何实现多头注意力的并行计算？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 7.1 自注意力机制：让词与词对话](01-self-attention.md)</span>
+
+<span>[7.3 位置编码：给序列注入顺序信息 &rarr;](03-positional-encoding.md)</span>
+
+</div>

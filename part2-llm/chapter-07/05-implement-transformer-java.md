@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 7.4 编码器-解码器架构](04-encoder-decoder-architecture.md)</span>
+
+<span>[8.1 GPT系列：生成式预训练模型 &rarr;](../chapter-08/01-gpt-series.md)</span>
+
+</div>
+---
+
 # 7.5 用Java实现简化版Transformer
 
 > "纸上得来终觉浅，绝知此事要躬行——让我们动手实现一个简化版Transformer。"
@@ -440,3 +449,13 @@ public class OptimizationTips {
 1. 运行代码，观察输出形状是否正确
 2. 修改层数和头数，观察性能变化
 3. 添加dropout正则化
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 7.4 编码器-解码器架构](04-encoder-decoder-architecture.md)</span>
+
+<span>[8.1 GPT系列：生成式预训练模型 &rarr;](../chapter-08/01-gpt-series.md)</span>
+
+</div>

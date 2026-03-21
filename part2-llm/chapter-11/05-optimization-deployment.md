@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 11.4 对话系统实现](04-conversation-system.md)</span>
+
+<span>[12.1 智能体概念与架构 &rarr;](../../part3-agents/chapter-12/01-what-is-agent.md)</span>
+
+</div>
+---
+
 # 11.5 部署与优化
 
 > "从开发到生产——性能、稳定性、成本的全面优化。"
@@ -376,3 +385,13 @@ spec:
 1. 设计一个RAG系统的性能测试方案
 2. 如何实现RAG系统的降级策略？
 3. 计算你的RAG系统的成本模型。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 11.4 对话系统实现](04-conversation-system.md)</span>
+
+<span>[12.1 智能体概念与架构 &rarr;](../../part3-agents/chapter-12/01-what-is-agent.md)</span>
+
+</div>

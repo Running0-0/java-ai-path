@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 7.2 多头注意力：并行捕捉多种关系](02-multi-head-attention.md)</span>
+
+<span>[7.4 编码器-解码器架构 &rarr;](04-encoder-decoder-architecture.md)</span>
+
+</div>
+---
+
 # 7.3 位置编码：给序列注入顺序信息
 
 > "Transformer没有递归，没有卷积，位置编码是它理解顺序的关键。"
@@ -293,3 +302,13 @@ RoPE将位置信息编码为旋转：
 1. 为什么正弦位置编码可以表示相对位置？
 2. 可学习位置编码和正弦编码各有什么优缺点？
 3. 如何实现RoPE位置编码？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 7.2 多头注意力：并行捕捉多种关系](02-multi-head-attention.md)</span>
+
+<span>[7.4 编码器-解码器架构 &rarr;](04-encoder-decoder-architecture.md)</span>
+
+</div>

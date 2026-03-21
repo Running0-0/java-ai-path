@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 16.1 多智能体概述](01-multi-agent-overview.md)</span>
+
+<span>[16.3 通信协议 &rarr;](03-communication-protocol.md)</span>
+
+</div>
+---
+
 # 16.2 角色与协作
 
 > "明确的角色分工是高效协作的基础——每个智能体都知道自己该做什么。"
@@ -278,3 +287,13 @@ public class CollaborationWorkflow {
 1. 设计一个内容创作团队的角色分工
 2. 实现一个支持迭代协作的工作流
 3. 设计多智能体冲突解决机制。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 16.1 多智能体概述](01-multi-agent-overview.md)</span>
+
+<span>[16.3 通信协议 &rarr;](03-communication-protocol.md)</span>
+
+</div>

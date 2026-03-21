@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 8.5 设计思考：生成式与理解式模型](../chapter-08/05-generation-vs-understanding.md)</span>
+
+<span>[9.2 模型量化：让大模型变小 &rarr;](02-model-quantization.md)</span>
+
+</div>
+---
+
 # 9.1 开源大模型生态
 
 > "开源让AI民主化——不再依赖闭源API，你可以在本地运行强大的大模型。"
@@ -284,3 +293,13 @@ public class QuantizedModelLoader {
 1. 开源模型和闭源API各有什么优缺点？
 2. 如何根据硬件配置选择模型和量化级别？
 3. 在你的机器上尝试运行Ollama。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 8.5 设计思考：生成式与理解式模型](../chapter-08/05-generation-vs-understanding.md)</span>
+
+<span>[9.2 模型量化：让大模型变小 &rarr;](02-model-quantization.md)</span>
+
+</div>

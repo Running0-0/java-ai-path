@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 6.3 Transformer架构：注意力机制的革命](03-transformer-architecture.md)</span>
+
+<span>[7.1 自注意力机制：让词与词对话 &rarr;](../chapter-07/01-self-attention.md)</span>
+
+</div>
+---
+
 # 6.4 设计思考：为什么Transformer改变了NLP
 
 > "Transformer不仅是一种架构，更是NLP范式的转变——从顺序处理到并行理解，从局部关注到全局感知。"
@@ -156,3 +165,13 @@ Transformer不仅是技术的进步，更是思维方式的转变——从顺序
 1. Transformer的并行性对工程实现有什么影响？
 2. 为什么自注意力比RNN更适合长文本？
 3. 预训练范式为什么能在NLP领域成功？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 6.3 Transformer架构：注意力机制的革命](03-transformer-architecture.md)</span>
+
+<span>[7.1 自注意力机制：让词与词对话 &rarr;](../chapter-07/01-self-attention.md)</span>
+
+</div>

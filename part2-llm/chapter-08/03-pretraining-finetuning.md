@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 8.2 BERT：双向编码器表示](02-bert-model.md)</span>
+
+<span>[8.4 实战：调用OpenAI API &rarr;](04-openai-api-practice.md)</span>
+
+</div>
+---
+
 # 8.3 预训练与微调范式
 
 > "预训练+微调是NLP的革命——先在大数据上学习通用知识，再在小数据上适应特定任务。"
@@ -368,3 +377,13 @@ public class FineTuningBestPractices {
 1. 预训练-微调范式为什么比从头训练好？
 2. 全量微调和适配器微调各有什么优缺点？
 3. 如何避免微调时的灾难性遗忘？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 8.2 BERT：双向编码器表示](02-bert-model.md)</span>
+
+<span>[8.4 实战：调用OpenAI API &rarr;](04-openai-api-practice.md)</span>
+
+</div>

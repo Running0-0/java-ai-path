@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 17.3 工具集成](03-tool-integration.md)</span>
+
+<span>[17.5 部署与优化 &rarr;](05-deployment-optimization.md)</span>
+
+</div>
+---
+
 # 17.4 用户界面
 
 > "好的界面让AI助手更易用——从命令行到Web，满足不同场景需求。"
@@ -84,3 +93,13 @@ public class AssistantController {
 1. 为Web界面添加SSE流式响应
 2. 实现WebSocket实时通信
 3. 设计移动端适配方案。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 17.3 工具集成](03-tool-integration.md)</span>
+
+<span>[17.5 部署与优化 &rarr;](05-deployment-optimization.md)</span>
+
+</div>

@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 10.4 提示模板与复用](04-design-prompt-templates.md)</span>
+
+<span>[11.1 项目架构设计 &rarr;](../chapter-11/01-project-background-architecture.md)</span>
+
+</div>
+---
+
 # 10.5 设计思考：提示即编程
 
 > "提示工程正在演变为一种新编程范式——用自然语言编写程序，让AI执行。"
@@ -270,3 +279,13 @@ Java程序员的应对策略：
 1. 你的工作中哪些任务适合用提示编程？
 2. 如何设计一个混合提示和代码的系统？
 3. 提示编程对软件工程实践有什么影响？
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 10.4 提示模板与复用](04-design-prompt-templates.md)</span>
+
+<span>[11.1 项目架构设计 &rarr;](../chapter-11/01-project-background-architecture.md)</span>
+
+</div>

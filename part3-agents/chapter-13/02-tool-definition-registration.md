@@ -1,3 +1,12 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+
+<span>[&larr; 13.1 Function Calling基础](01-function-calling.md)</span>
+
+<span>[13.3 构建自定义工具 &rarr;](03-build-custom-tools.md)</span>
+
+</div>
+---
+
 # 13.2 工具定义与注册
 
 > "清晰的工具定义是智能体正确使用工具的前提——好的说明书决定好的使用效果。"
@@ -366,3 +375,13 @@ public class VersionedToolRegistry extends ToolRegistry {
 1. 为文件操作功能设计一套工具定义
 2. 实现一个工具注册中心的REST API
 3. 设计工具的权限控制机制。
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+
+<span>[&larr; 13.1 Function Calling基础](01-function-calling.md)</span>
+
+<span>[13.3 构建自定义工具 &rarr;](03-build-custom-tools.md)</span>
+
+</div>
